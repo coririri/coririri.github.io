@@ -51,8 +51,8 @@ author:
 menu:
   # - title:             Example
   #   url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  # - title:             Documentation
+  #   url:               /docs/
   # - title:             About
   #   url:               /about/
   - title:             네트워크
@@ -67,10 +67,10 @@ menu:
     url:               /computerStructure/
   - title:             운영체제
     url:               /operationSystem/
-  - title:             깃허브 주소
-    url:               https://github.com/coririri
   - title:             프로젝트 문제 해결
     url:               /projectProblemSolve/
+  - title:             "@깃허브 주소"
+    url:               https://github.com/coririri
   
 
 # Add links to the footer.
@@ -97,8 +97,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
