@@ -61,6 +61,8 @@ menu:
     url:               /project2/
   - title:             기술 면접 대비
     url:               /csStudy/
+  - title:             공학작문 및 발표 과제 정리
+    url:               /writingForCS/
   - title:             "@깃허브 주소"
     url:               https://github.com/coririri
   
