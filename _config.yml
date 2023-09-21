@@ -63,6 +63,8 @@ menu:
     url:               /csStudy/
   - title:             "@깃허브 주소"
     url:               https://github.com/coririri
+  - title:             "@깃허브 주소"
+    url:               /writingForCs/
   
 
 # Add links to the footer.
