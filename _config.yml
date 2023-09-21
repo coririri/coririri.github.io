@@ -60,7 +60,7 @@ menu:
   - title:             프로젝트2
     url:               /project2/
   - title:             기술 면접 대비
-    url:               /csStudy/
+    url:               /csstudy/
   - title:             "공학 작문 및 발표"
     url:               /writingforcs/
   - title:             "@깃허브 주소"
