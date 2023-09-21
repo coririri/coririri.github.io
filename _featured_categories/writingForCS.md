@@ -6,7 +6,7 @@ layout: list
 title: 공학작문 및 발표
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug:  writingForCS
+slug:  writingforcs
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
