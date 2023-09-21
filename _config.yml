@@ -61,10 +61,10 @@ menu:
     url:               /project2/
   - title:             기술 면접 대비
     url:               /csStudy/
-  - title:             "@깃허브 주소"
-    url:               https://github.com/coririri
   - title:             "공학작문 및 발표"
     url:               /writingForCs/
+  - title:             "@깃허브 주소"
+    url:               https://github.com/coririri
   
 
 # Add links to the footer.
