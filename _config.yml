@@ -51,19 +51,19 @@ author:
 menu:
   # - title:             Example
   #   url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  # - title:             About
-  #   url:               /about/
-  - title:             프로젝트1
-    url:               /project1/
-  - title:             프로젝트2
-    url:               /project2/
+  - title:             다국어 맛집 리뷰 서비스 프로젝트
+    url:               /matgpt/
+  - title:             자료구조 개념 정리
+    url:               /dataStruct/
+  - title:             알고리즘 개념 정리
+    url:               /algorithm/
+  - title:             코딩 테스트 문제 풀이
+    url:               /codingTest/
   - title:             기술 면접 대비
-    url:               /csstudy/
+    url:               /csStudy/
   - title:             "공학 작문 및 발표"
-    url:               /writingforcs/
-  - title:             "@깃허브 주소"
+    url:               /engineeringWriting/
+  - title:             "깃허브 주소"
     url:               https://github.com/coririri
   
 
@@ -91,8 +91,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
