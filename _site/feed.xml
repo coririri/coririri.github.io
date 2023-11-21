@@ -1,5 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-14T20:29:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">SPA 프레임워크, 라이브러리의 비교 글</title><link href="http://localhost:4000/engineeringwriting/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="SPA 프레임워크, 라이브러리의 비교 글" /><published>2023-10-01T20:52:24+09:00</published><updated>2023-11-14T20:28:14+09:00</updated><id>http://localhost:4000/engineeringwriting/4%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-21T16:07:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">오픈 소스 라이선스</title><link href="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/" rel="alternate" type="text/html" title="오픈 소스 라이선스" /><published>2023-11-21T15:56:24+09:00</published><updated>2023-11-21T16:07:15+09:00</updated><id>http://localhost:4000/frontendbasic/%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/"><![CDATA[<h2 id="요약">요약</h2>
+<p>패스트캠퍼스 프론트엔드 기초 강의를 수강하며 오픈 소스 라이선스에 대해서 학습한 내용입니다.</p>
+
+<h2 id="본론">본론</h2>
+<h3 id="오픈-소스란">오픈 소스란?</h3>
+<p>어떤 제품을 개발하는 과정에서 필요한 소스 코드나 설계도를, 누구나 접근해서
+열람할 수 있도록 공개하는 것. (당연히 저작권이 있다.)</p>
+
+<p><strong>아래 두가지는 꼭 확인</strong><br />
+개인 사용가능<br />
+무료로 사용 가능</p>
+
+<ul>
+  <li>아파치 라이선스<br />
+좀더 폭 넓게</li>
+  <li>MIT 라이선스<br />
+특별한 제약은 없지만, 개인 소스에 이 라이선스를 사용하고 있다는 표시만 지켜주면 됨.</li>
+  <li>BSD 라이선스<br />
+MIT와 동일</li>
+  <li>Beerware<br />
+자유롭게 사용 가능</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[요약 패스트캠퍼스 프론트엔드 기초 강의를 수강하며 오픈 소스 라이선스에 대해서 학습한 내용입니다.]]></summary></entry><entry><title type="html">웹에서 사용하는 이미지</title><link href="http://localhost:4000/frontendbasic/2023-11-21-%EC%9B%B9%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80/" rel="alternate" type="text/html" title="웹에서 사용하는 이미지" /><published>2023-11-21T15:37:24+09:00</published><updated>2023-11-21T16:01:36+09:00</updated><id>http://localhost:4000/frontendbasic/%EC%9B%B9%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EC%9D%B4%EB%AF%B8%EC%A7%80</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-%EC%9B%B9%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80/"><![CDATA[<h2 id="요약">요약</h2>
+<p>패스트캠퍼스 프론트엔드 기초 강의를 수강하며 웹에서 사용하는 이미지들을 정리한 내용입니다.</p>
+
+<h2 id="본론">본론</h2>
+
+<h3 id="비트맵">비트맵</h3>
+<p>각각의 픽셀들이 모여서 만들어진 이미지로(레스터화 된 이미지라고도 불림)</p>
+
+<p><strong>장점</strong></p>
+
+<ul>
+  <li>정교하고 다양한 색상을 자연스럽게 표현</li>
+</ul>
+
+<p><strong>사용 처</strong><br />
+  보통 사용되는 이미지들 ex. jpg(jpeg), png</p>
+<ul>
+  <li>jpg(jpeg)<br />
+  <strong>특징</strong>
+    <ul>
+      <li>손실되면서 압축 (저장될수록 용량이 줄어들고, 손실된다.)</li>
+      <li>표현 색상도가 뛰어남</li>
+      <li>가장 널리 쓰이는 이미지 포맷</li>
+    </ul>
+  </li>
+  <li>png<br />
+  <strong>특징</strong>
+    <ul>
+      <li>비손실 압축(용량은 안 줄어듬)</li>
+      <li>투명도(알파) 지원</li>
+      <li>W3C 권장 포맷</li>
+    </ul>
+  </li>
+  <li>gif<br />
+  <strong>특징</strong>
+    <ul>
+      <li>비손실 압축</li>
+      <li>여러 장의 이미지를 한 개의 파일에 담을 수 있음</li>
+      <li>(움짤, 애니메이션)</li>
+      <li>다양한 색상 표현에는 적합하지 않음</li>
+    </ul>
+  </li>
+  <li>webp<br />
+  <strong>특징</strong>
+    <ul>
+      <li>jpg, png, gif를 모두 대체할 수 있는 구글이 개발한 이미지 포맷</li>
+      <li>손실/비손실 압축 동시 지원</li>
+      <li>애니메이션 기능 지원</li>
+      <li>투명도(알파) 지원</li>
+      <li>최신 기술이기 때문에 크로스 브라우징 확인(하위 호환성 확인)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="벡터">벡터</h3>
+<p>점, 선, 면의 위치(좌표) 등 수학적 정보의 형태로 이루어진 이미지</p>
+
+<p><strong>장점</strong></p>
+
+<ul>
+  <li>확대/축소에서 자유로움, 용량 변화가 없음.</li>
+</ul>
+
+<p><strong>사용 처</strong>
+  단순 구조의 로고 및 아이콘 (머터리얼 디자인): 고품질 디지털 경험을 구축할 수 있도록
+  구글에서 만든 디자인 시스템 ex. svg</p>
+<ul>
+  <li>svg<br />
+  <strong>특징</strong>
+    <ul>
+      <li>해상도의 영향에서 자유로움</li>
+      <li>CSS와 JS로 제어 가능</li>
+      <li>파일 및 코드 삽입 가능</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[요약 패스트캠퍼스 프론트엔드 기초 강의를 수강하며 웹에서 사용하는 이미지들을 정리한 내용입니다.]]></summary></entry><entry><title type="html">프론트엔드의 기초</title><link href="http://localhost:4000/frontendbasic/2023-11-21-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%9D%98-%EA%B8%B0%EC%B4%88/" rel="alternate" type="text/html" title="프론트엔드의 기초" /><published>2023-11-21T14:52:24+09:00</published><updated>2023-11-21T15:57:29+09:00</updated><id>http://localhost:4000/frontendbasic/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%9D%98%20%EA%B8%B0%EC%B4%88</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%9D%98-%EA%B8%B0%EC%B4%88/"><![CDATA[<h2 id="요약">요약</h2>
+<p>패스트캠퍼스 프론트엔드 기초 강의를 수강하며 정리한 내용들입니다.</p>
+
+<h2 id="서론">서론</h2>
+
+<h3 id="프론트엔드-개발이란">프론트엔드 개발이란?</h3>
+<p>HTML, CSS, JS를 사용해 데이터를 그래픽 사용자 인터페이스(GUI)로 변환하고,
+그것으로 사용자와 상호 작용할 수 있도록 하는 것.</p>
+
+<h2 id="본론">본론</h2>
+
+<h3 id="htmlcss-그리고-js">html,css 그리고 js</h3>
+<ul>
+  <li>html
+Hyper Text Markup Language(Hyper Text: 링크 텍스트)의 약자
+페이지의 제목, 문단, 표, 이미지 와 같은 웹의 구조를 담당</li>
+  <li>CSS
+Cascading Style Sheets의 약자
+실제 화면에 표시되는 콘텐츠를 꾸며주는 디자인을 담당</li>
+  <li>JS
+콘텐츠를 바꾸고 움직이는 등 페이지를 동작시키는 동적 처리를 담당</li>
+</ul>
+
+<h3 id="웹앱의-동작-방식">웹앱의 동작 방식</h3>
+<p><img src="../images/howWebAppsWork.jpg" alt="웹 앱의 동작 방식 설명 이미지" />
+내가 해야 할일은 html, css, js를 활용해 열심히 로컬환경에서 웹을 제작하고 서버에 업로드해
+사용자가 서버에 요청하면 렌더링에 필요한 html, css, js파일들을 전송할 수 있게 해주는 것.</p>
+
+<h3 id="웹표준과-브라우저">웹표준과 브라우저</h3>
+<p>W3C에서 여러 단계를 거쳐 웹 표준 기술을 지정한다.
+해당 기술은 브라우저(공급업체)에서 작동하고 공급업체들은 표준 기술을 참고하여 브라우저를 제작한다.  <br />
+<strong>크로스 브라우징</strong>:이러한 공급업체들도 웹 표준 기술을 해석하는 방식이 다르기 때문에 브러우저마다 동작 방식이 다를 수 있다.<br />
+<strong>뷰표트</strong>: 하나의 웹 페이지가 렌더링 되는 영역</p>
+
+<h3 id="특수-문자-용어">특수 문자 용어</h3>
+<ul>
+  <li>그레이브 기호(백틱) : 1 왼쪽에 있음</li>
+  <li>틸드 : 1 왼쪽에 있음</li>
+  <li>골뱅이는 assing으로 불림</li>
+  <li>^: 캐럿: ~의 이상을 표현</li>
+  <li>&amp;: 퍼센트, 앰퍼센드</li>
+  <li>-: 하이픈, 대시, 마이너스</li>
+  <li>_: 로대시, 밑줄, 언더 스코어</li>
+  <li>”: 큰 따움표</li>
+  <li>’: 작은 따움표</li>
+  <li>: 콜런</li>
+  <li>; : 세미 콜론</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>: 버티컬 바</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>() : 소괄호</li>
+  <li>{} : 줄괄포 , 브레이스</li>
+  <li>[] : 대괄호, 브래킷</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[요약 패스트캠퍼스 프론트엔드 기초 강의를 수강하며 정리한 내용들입니다.]]></summary></entry><entry><title type="html">SPA 프레임워크, 라이브러리의 비교 글</title><link href="http://localhost:4000/engineeringwriting/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="SPA 프레임워크, 라이브러리의 비교 글" /><published>2023-10-01T20:52:24+09:00</published><updated>2023-11-14T20:28:14+09:00</updated><id>http://localhost:4000/engineeringwriting/4%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우</p>
 
 <h1 id="spa-프레임워크-라이브러리의-비교-글">SPA 프레임워크, 라이브러리의 비교 글</h1>
 
@@ -85,7 +240,7 @@ Stack Overflow Trends를 통해 리액트가 2019년을 기점으로 앵귤러�
 
 <p>stackoverflow trends 조사 사이트 (https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangularreact)</p>
 
-<p>블로그 작성 글: https://coririri.github.io/writingforcs/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우]]></summary></entry><entry><title type="html">그래프 표현 방법</title><link href="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="그래프 표현 방법" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-14T20:29:38+09:00</updated><id>http://localhost:4000/datastruct/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%91%9C%ED%98%84%20%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="dataStruct" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">비평 글</title><link href="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="비평 글" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-14T20:28:15+09:00</updated><id>http://localhost:4000/engineeringwriting/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우</p>
+<p>블로그 작성 글: https://coririri.github.io/writingforcs/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우]]></summary></entry><entry><title type="html">그래프 표현 방법</title><link href="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="그래프 표현 방법" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-14T20:29:38+09:00</updated><id>http://localhost:4000/datastruct/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%91%9C%ED%98%84%20%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="dataStruct" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">비평 글</title><link href="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="비평 글" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-21T14:53:02+09:00</updated><id>http://localhost:4000/engineeringwriting/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우</p>
 <h1 id="네이버-ai검색-큐복합-의도-분석-아직은-2-부족">네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족</h1>
 <ul>
   <li>글의 요약
@@ -585,152 +740,4 @@ A caption to an image.</p>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
-
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
-
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-
-<ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-</ul>
-
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
-
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
-
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
-
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Howdy! This is an example blog post that shows several types of HTML content supported in this theme.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/0202-08-09-welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>0202-08-09T00:28:24+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/0202-08-09-welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
