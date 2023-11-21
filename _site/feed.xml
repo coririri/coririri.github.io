@@ -1,5 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-21T16:07:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">오픈 소스 라이선스</title><link href="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/" rel="alternate" type="text/html" title="오픈 소스 라이선스" /><published>2023-11-21T15:56:24+09:00</published><updated>2023-11-21T16:07:15+09:00</updated><id>http://localhost:4000/frontendbasic/%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/"><![CDATA[<h2 id="요약">요약</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-21T20:53:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…</title><link href="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/" rel="alternate" type="text/html" title="그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…" /><published>2023-11-21T20:52:24+09:00</published><updated>2023-11-21T20:53:09+09:00</updated><id>http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/%EC%9D%B8%EC%A0%91%20%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90..%20%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90</id><content type="html" xml:base="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/"><![CDATA[<h2 id="각-방식의-특징과-장단점">각 방식의 특징과 장단점</h2>
+
+<h2 id="다익스트라">다익스트라</h2>
+
+<h2 id="플로이드-와샬">플로이드 와샬</h2>
+
+<h2 id="벨만-포드">벨만 포드</h2>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="algorithm" /><summary type="html"><![CDATA[각 방식의 특징과 장단점]]></summary></entry><entry><title type="html">다익스트라 알고리즘 In JS</title><link href="http://localhost:4000/algorithm/2023-11-21-%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BCJS/" rel="alternate" type="text/html" title="다익스트라 알고리즘 In JS" /><published>2023-11-21T17:54:24+09:00</published><updated>2023-11-21T20:50:11+09:00</updated><id>http://localhost:4000/algorithm/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BCJS</id><content type="html" xml:base="http://localhost:4000/algorithm/2023-11-21-%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BCJS/"><![CDATA[<h2 id="다익스트라-알고리즘이란">다익스트라 알고리즘이란?</h2>
+<p>음의 가중치가 없는 그래프의 한 정점에서 모든 정점까지의 최단거리를 각각 구하는 알고리즘</p>
+
+<h2 id="시간-복잡도">시간 복잡도</h2>
+<p>O(\(V^2\))인데, 우선순위 큐를 활용해 개선 된 다익스트라 알고리즘에선 O((V+E)logV)로 개선 됨.</p>
+<ul>
+  <li>V는 정점의 개수, E는 한 정점의 주변 노드</li>
+</ul>
+
+<h2 id="동작-과정그림">동작 과정(그림)</h2>
+<p><img src="../images/DijkstraAlgorithmProcedure(1).jpg" alt="다익스트라 동작 과정(1)" />
+<img src="../images/DijkstraAlgorithmProcedure(2).jpg" alt="다익스트라 동작 과정(2)" />
+<img src="../images/DijkstraAlgorithmProcedure(3).jpg" alt="다익스트라 동작 과정(2)" />
+<img src="../images/DijkstraAlgorithmProcedure(4).jpg" alt="다익스트라 동작 과정(2)" />
+<img src="../images/DijkstraAlgorithmProcedure(5).jpg" alt="다익스트라 동작 과정(2)" /></p>
+
+<h2 id="코드로-이해">코드로 이해</h2>
+<h3 id="기본-구현-인접-배열-방식">기본 구현 [인접 배열 방식]</h3>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">N</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+
+<span class="c1">// 인접 배열 초기화</span>
+<span class="kd">const</span> <span class="nx">graph</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span> <span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+<span class="p">]</span>
+
+<span class="c1">// 방문 여부 체크할 배열</span>
+<span class="kd">const</span> <span class="nx">visited</span> <span class="o">=</span> <span class="nc">Array</span><span class="p">(</span><span class="nx">N</span><span class="p">).</span><span class="nf">fill</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+
+<span class="c1">// 1번 노드로부터 각 노드까지의 최단 거리를 저장한 배열 생성</span>
+<span class="kd">const</span> <span class="nx">dist</span> <span class="o">=</span> <span class="nc">Array</span><span class="p">(</span><span class="nx">N</span><span class="p">).</span><span class="nf">fill</span><span class="p">(</span><span class="kc">Infinity</span><span class="p">);</span>
+
+<span class="c1">// 방문하지 않았으면서 거리 테이블에서 가장 작은 값을 가진 노드 탐색</span>
+<span class="kd">const</span> <span class="nx">findSmallestNode</span> <span class="o">=</span> <span class="p">(</span><span class="nx">visited</span><span class="p">,</span> <span class="nx">dist</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">minDist</span> <span class="o">=</span> <span class="kc">Infinity</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">minIdx</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">dist</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span> <span class="k">continue</span><span class="p">;</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">dist</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">minDist</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">minDist</span> <span class="o">=</span> <span class="nx">dist</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+            <span class="nx">minIdx</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">minIdx</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// 다익스트라 알고리즘 수행</span>
+<span class="kd">const</span> <span class="nx">dijkstra</span> <span class="o">=</span> <span class="p">(</span><span class="nx">graph</span><span class="p">,</span> <span class="nx">visited</span><span class="p">,</span> <span class="nx">dist</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 시작 노드는 0으로 초기화</span>
+    <span class="nx">dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">dist</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="nx">nodeIndex</span> <span class="o">=</span> <span class="nf">findSmallestNode</span><span class="p">(</span><span class="nx">visited</span><span class="p">,</span> <span class="nx">dist</span><span class="p">);</span>
+        <span class="nx">visited</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">]</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">j</span><span class="o">&lt;</span><span class="nx">dist</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">j</span><span class="p">])</span> <span class="k">continue</span><span class="p">;</span>
+            <span class="nx">dist</span><span class="p">[</span><span class="nx">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nf">min</span><span class="p">(</span><span class="nx">dist</span><span class="p">[</span><span class="nx">j</span><span class="p">],</span> <span class="nx">dist</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">]</span><span class="o">+</span><span class="nx">graph</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">][</span><span class="nx">j</span><span class="p">]);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nf">dijkstra</span><span class="p">(</span><span class="nx">graph</span><span class="p">,</span><span class="nx">visited</span><span class="p">,</span><span class="nx">dist</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dist</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>코드를 확인해보면 가장 dist중에 가장 작은 값을 가진 노드를 찾는데 N</li>
+  <li>그 노드와 인접한 노드 + 그 노드까지 거리 or 목적지 노드까지 거리 중 최소 값을 구하는데 N해서 
+\(N^2\)의 시간복잡도를 가지는 것을 알 수 있다.
+    <h3 id="우선순위-큐-활용-구현-인접-리스트-방식">우선순위 큐 활용 구현 [인접 리스트 방식]</h3>
+  </li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// 우선순위 큐 클래스 정의</span>
+<span class="kd">class</span> <span class="nc">PriorityQueue</span> <span class="p">{</span>
+    <span class="nf">constructor</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">queue</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="p">}</span>
+
+    <span class="nf">enqueue</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">priority</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">queue</span><span class="p">.</span><span class="nf">push</span><span class="p">({</span> <span class="nx">element</span><span class="p">,</span> <span class="nx">priority</span> <span class="p">});</span>
+        <span class="k">this</span><span class="p">.</span><span class="nf">sort</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="nf">dequeue</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">queue</span><span class="p">.</span><span class="nf">shift</span><span class="p">();</span>
+    <span class="p">}</span>
+
+    <span class="nf">sort</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">queue</span><span class="p">.</span><span class="nf">sort</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span><span class="p">.</span><span class="nx">priority</span> <span class="o">-</span> <span class="nx">b</span><span class="p">.</span><span class="nx">priority</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="nf">isEmpty</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">queue</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">const</span> <span class="nx">N</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+
+<span class="c1">// 인접 배열 초기화</span>
+<span class="kd">const</span> <span class="nx">graph</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span> <span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">5</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">],</span>
+    <span class="p">[</span><span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="kc">Infinity</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+<span class="p">]</span>
+
+<span class="c1">// 방문 여부 및 최단 거리 테이블 초기화</span>
+<span class="kd">const</span> <span class="nx">visited</span> <span class="o">=</span> <span class="nc">Array</span><span class="p">(</span><span class="nx">N</span><span class="p">).</span><span class="nf">fill</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">dist</span> <span class="o">=</span> <span class="nc">Array</span><span class="p">(</span><span class="nx">N</span><span class="p">).</span><span class="nf">fill</span><span class="p">(</span><span class="kc">Infinity</span><span class="p">);</span>
+
+<span class="c1">// 시작 노드는 0으로 초기화</span>
+<span class="nx">dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="c1">// 우선순위 큐 초기화</span>
+<span class="kd">const</span> <span class="nx">pq</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PriorityQueue</span><span class="p">();</span>
+<span class="nx">pq</span><span class="p">.</span><span class="nf">enqueue</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+<span class="c1">// 시작 노드는 0으로 초기화</span>
+<span class="nx">dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="c1">// 다익스트라 알고리즘 수행</span>
+<span class="kd">const</span> <span class="nx">dijkstra</span> <span class="o">=</span> <span class="p">(</span><span class="nx">graph</span><span class="p">,</span> <span class="nx">visited</span><span class="p">,</span> <span class="nx">dist</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 시작 노드는 0으로 초기화</span>
+    <span class="nx">dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    
+    <span class="k">while </span><span class="p">(</span><span class="o">!</span><span class="nx">pq</span><span class="p">.</span><span class="nf">isEmpty</span><span class="p">())</span> <span class="p">{</span>
+        <span class="kd">const</span> <span class="p">{</span> <span class="na">element</span><span class="p">:</span> <span class="nx">nodeIndex</span><span class="p">,</span> <span class="na">priority</span><span class="p">:</span> <span class="nx">currentDistance</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">pq</span><span class="p">.</span><span class="nf">dequeue</span><span class="p">();</span>
+
+        <span class="k">if </span><span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">])</span> <span class="k">continue</span><span class="p">;</span>
+        <span class="nx">visited</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">]</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+
+        <span class="k">for </span><span class="p">(</span><span class="kd">let</span> <span class="nx">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="o">&lt;</span> <span class="nx">dist</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if </span><span class="p">(</span><span class="nx">visited</span><span class="p">[</span><span class="nx">j</span><span class="p">])</span> <span class="k">continue</span><span class="p">;</span>
+
+            <span class="kd">const</span> <span class="nx">newDistance</span> <span class="o">=</span> <span class="nx">currentDistance</span> <span class="o">+</span> <span class="nx">graph</span><span class="p">[</span><span class="nx">nodeIndex</span><span class="p">][</span><span class="nx">j</span><span class="p">];</span>
+
+            <span class="k">if </span><span class="p">(</span><span class="nx">newDistance</span> <span class="o">&lt;</span> <span class="nx">dist</span><span class="p">[</span><span class="nx">j</span><span class="p">])</span> <span class="p">{</span>
+                <span class="nx">dist</span><span class="p">[</span><span class="nx">j</span><span class="p">]</span> <span class="o">=</span> <span class="nx">newDistance</span><span class="p">;</span>
+                <span class="nx">pq</span><span class="p">.</span><span class="nf">enqueue</span><span class="p">(</span><span class="nx">j</span><span class="p">,</span> <span class="nx">newDistance</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nf">dijkstra</span><span class="p">(</span><span class="nx">graph</span><span class="p">,</span><span class="nx">visited</span><span class="p">,</span><span class="nx">dist</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">dist</span><span class="p">)</span>
+</code></pre></div></div>
+<ul>
+  <li>방문 하지 않은 node들중 dist값이 가장 작은 node를 선택 하는 부분을 우선순위 큐로 바꿈.</li>
+  <li>해당 과정에서 findSmallestNode()함수는 필요 없게 됨.</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="algorithm" /><summary type="html"><![CDATA[다익스트라 알고리즘이란? 음의 가중치가 없는 그래프의 한 정점에서 모든 정점까지의 최단거리를 각각 구하는 알고리즘]]></summary></entry><entry><title type="html">오픈 소스 라이선스</title><link href="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/" rel="alternate" type="text/html" title="오픈 소스 라이선스" /><published>2023-11-21T15:56:24+09:00</published><updated>2023-11-21T16:07:15+09:00</updated><id>http://localhost:4000/frontendbasic/%EC%98%A4%ED%94%88%20%EC%86%8C%EC%8A%A4%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-%EC%98%A4%ED%94%88-%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4/"><![CDATA[<h2 id="요약">요약</h2>
 <p>패스트캠퍼스 프론트엔드 기초 강의를 수강하며 오픈 소스 라이선스에 대해서 학습한 내용입니다.</p>
 
 <h2 id="본론">본론</h2>
@@ -119,7 +281,7 @@ Cascading Style Sheets의 약자
 </ul>
 
 <h3 id="웹앱의-동작-방식">웹앱의 동작 방식</h3>
-<p><img src="../images/howWebAppsWork.jpg" alt="웹 앱의 동작 방식 설명 이미지" />
+<p><img src="/frontendBasic/images/howWebAppsWork.jpg" alt="웹 앱의 동작 방식 설명 이미지" />
 내가 해야 할일은 html, css, js를 활용해 열심히 로컬환경에서 웹을 제작하고 서버에 업로드해
 사용자가 서버에 요청하면 렌더링에 필요한 html, css, js파일들을 전송할 수 있게 해주는 것.</p>
 
@@ -278,7 +440,7 @@ Stack Overflow Trends를 통해 리액트가 2019년을 기점으로 앵귤러�
   </li>
 </ul>
 
-<p><a href="https://www.ceoscoredaily.com/page/view/2023092116204975099">참고 기사</a></p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우 네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족 글의 요약 이 글은 기사에 대한 비평을 공학적 관점에서 적은 글입니다. 글을 선택한 이유 이번에 새롭게 출시한 네이버 생성형 AI 큐에 대한 반응을 알아보기 위해서 이 글을 보았는데, 공학적 관점에서는 받아드리기 힘든 내용들이 많아서 선택하게 되였습니다.]]></summary></entry><entry><title type="html">기술 면접 대비 스터디</title><link href="http://localhost:4000/csstudy/algorithm/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" rel="alternate" type="text/html" title="기술 면접 대비 스터디" /><published>2023-08-09T00:28:24+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/csstudy/algorithm/%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EB%8C%80%EB%B9%84</id><content type="html" xml:base="http://localhost:4000/csstudy/algorithm/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="csStudy" /><category term="algorithm" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
+<p><a href="https://www.ceoscoredaily.com/page/view/2023092116204975099">참고 기사</a></p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우 네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족 글의 요약 이 글은 기사에 대한 비평을 공학적 관점에서 적은 글입니다. 글을 선택한 이유 이번에 새롭게 출시한 네이버 생성형 AI 큐에 대한 반응을 알아보기 위해서 이 글을 보았는데, 공학적 관점에서는 받아드리기 힘든 내용들이 많아서 선택하게 되였습니다.]]></summary></entry><entry><title type="html">기술 면접 대비 스터디</title><link href="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" rel="alternate" type="text/html" title="기술 면접 대비 스터디" /><published>2023-08-09T00:28:24+09:00</published><updated>2023-11-21T18:01:35+09:00</updated><id>http://localhost:4000/csstudy/%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EB%8C%80%EB%B9%84</id><content type="html" xml:base="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="csStudy" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
 
 <p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
 
@@ -367,377 +529,4 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
   If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nf">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
-
-<p>There should be whitespace between paragraphs.</p>
-
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
-
-<p><a href="another-page">Link to another page</a>.</p>
-
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>    <ul>
-      <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a>        <ul>
-          <li><a href="#header-4" id="markdown-toc-header-4">Header 4</a>            <ul>
-              <li><a href="#header-5" id="markdown-toc-header-5">Header 5</a>                <ul>
-                  <li><a href="#header-6" id="markdown-toc-header-6">Header 6</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="#theres-a-horizontal-rule-below-this" id="markdown-toc-theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</a></li>
-      <li><a href="#here-is-an-unordered-list" id="markdown-toc-here-is-an-unordered-list">Here is an unordered list:</a></li>
-      <li><a href="#and-an-ordered-list" id="markdown-toc-and-an-ordered-list">And an ordered list:</a></li>
-      <li><a href="#and-a-nested-list" id="markdown-toc-and-a-nested-list">And a nested list:</a></li>
-      <li><a href="#small-image" id="markdown-toc-small-image">Small image</a></li>
-      <li><a href="#large-image" id="markdown-toc-large-image">Large image</a></li>
-      <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition lists</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="header-2">Header 2</h2>
-
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
-
-<h3 id="header-3">Header 3</h3>
-
-<blockquote>
-  <p>This is a blockquote following a header.</p>
-
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
-</blockquote>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nf">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nf">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h4 id="header-4">Header 4</h4>
-
-<ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
-
-<h5 id="header-5">Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
-
-<ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item</li>
-</ul>
-
-<h3 id="small-image">Small image</h3>
-
-<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" /></p>
-
-<h3 id="large-image">Large image</h3>
-
-<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p>
-
-<h3 id="definition-lists">Definition lists</h3>
-
-<dl>
-  <dt>Name</dt>
-  <dd>Godzilla</dd>
-  <dt>Born</dt>
-  <dd>1952</dd>
-  <dt>Birthplace</dt>
-  <dd>Japan</dd>
-  <dt>Color</dt>
-  <dd>Green</dd>
-</dl>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
