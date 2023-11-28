@@ -1,5 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-21T20:53:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…</title><link href="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/" rel="alternate" type="text/html" title="그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…" /><published>2023-11-21T20:52:24+09:00</published><updated>2023-11-21T20:53:09+09:00</updated><id>http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/%EC%9D%B8%EC%A0%91%20%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90..%20%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90</id><content type="html" xml:base="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/"><![CDATA[<h2 id="각-방식의-특징과-장단점">각 방식의 특징과 장단점</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-28T19:13:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">HTML 문서의 구조</title><link href="http://localhost:4000/frontendbasic/2023-11-28-HTML-%EB%AC%B8%EC%84%9C%EC%9D%98-%EA%B5%AC%EC%A1%B0/" rel="alternate" type="text/html" title="HTML 문서의 구조" /><published>2023-11-28T14:22:24+09:00</published><updated>2023-11-28T19:13:43+09:00</updated><id>http://localhost:4000/frontendbasic/HTML%20%EB%AC%B8%EC%84%9C%EC%9D%98%20%EA%B5%AC%EC%A1%B0</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-28-HTML-%EB%AC%B8%EC%84%9C%EC%9D%98-%EA%B5%AC%EC%A1%B0/"><![CDATA[<h2 id="전체-구조">전체 구조</h2>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="doctype에-대한-설명">DOCTYPE에 대한 설명</h2>
+<p>DTD(Document Type Definition): 문서 타입 정의</p>
+<ol>
+  <li>html1</li>
+  <li>html2</li>
+  <li>html3</li>
+  <li>html4</li>
+  <li>htmlx</li>
+  <li>html5(웹 표준)</li>
+</ol>
+
+<ul>
+  <li>html1~4는 사용할 일 없고, XHTML정도 유지보수 관점에서 만나볼수 있는데
+&lt;!DOCTYPE hmtl PUBLIC “-//W3C//DTD XHTML 1.0 Tras….”&gt; 이렇게 생김</li>
+  <li><strong>html테그</strong>는 브라우저에게 문서의 전체 범위를 알려주는데 사용</li>
+  <li><strong>head테그</strong>는 웹 페이지에 보이지 않는 문서의 정보를 나타내는 범위</li>
+  <li><strong>body테그</strong>는 웹 페이지에서 보여지는 문서의 구조를 나타내는 범위</li>
+</ul>
+
+<h2 id="css-js를-html문서로-가져오는-방식">CSS, JS를 HTML문서로 가져오는 방식</h2>
+<ul>
+  <li><strong>CSS를 연결하는 방식</strong>
+    <ul>
+      <li>
+        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"./main.css"</span><span class="nt">&gt;</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>JS를 연결하는 방식</strong>
+    <ul>
+      <li>
+        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"./main.js"</span> <span class="nt">/&gt;</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="정보를-의미하는-테그들">정보를 의미하는 테그들</h2>
+<ul>
+  <li>title: 웹의 제목을 정함</li>
+  <li>link: CSS, Icon과 같은 외부 파일을 가져올떄 사용
+    <ul>
+      <li>rel: 관계</li>
+      <li>href: 경로</li>
+      <li>웹 사이트 로고 만들기
+        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"icon"</span> <span class="na">href=</span><span class="s">"./favicon.png"</span><span class="nt">&gt;</span>
+    
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>meta 테그: title, link, style, script로 나타낼수 없는 정보를 표시
+    <ul>
+      <li>기본 구성 name: 어떤 속성?, content: 내용</li>
+      <li>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;meta name="viewport" width="device-width, initial-scale=1.0"&gt;
+</code></pre></div>        </div>
+        <p>뷰 포트는 모바일 환경에서만 사용됨. initial-scale은 모바일에서 화면 기본 확대 설정</p>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[전체 구조 ```html &lt;!DOCTYPE html&gt;]]></summary></entry><entry><title type="html">VisualStudioCode의 단축키</title><link href="http://localhost:4000/frontendbasic/2023-11-21-VisualStudioCode%EC%9D%98-%EB%8B%A8%EC%B6%95%ED%82%A4/" rel="alternate" type="text/html" title="VisualStudioCode의 단축키" /><published>2023-11-21T21:11:24+09:00</published><updated>2023-11-28T14:21:50+09:00</updated><id>http://localhost:4000/frontendbasic/VisualStudioCode%EC%9D%98%20%EB%8B%A8%EC%B6%95%ED%82%A4</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-VisualStudioCode%EC%9D%98-%EB%8B%A8%EC%B6%95%ED%82%A4/"><![CDATA[<h2 id="기본-단축키">기본 단축키</h2>
+<ul>
+  <li>ctrl + shift + p: 커맨드 창 열기</li>
+  <li>ctrl + o: 폴더 열기</li>
+  <li>프로젝트 단위는 파일이 아닌 폴더(디렉토리) 개념이다.</li>
+  <li>!+탭 or 엔터: html의 기본구조 자동 완성</li>
+  <li>테그명+tap: 자동완성</li>
+  <li>파일 개별 저장은 파일명 옆에 동그라미가 사라지고 X로 바뀌면 완성</li>
+  <li>프로젝트 단위 저장은 Ctrl+Alt+S</li>
+  <li>ctrl+h: 찾은 단어들 바꾸기 또는 모두 바꾸기</li>
+  <li>Alt+up,down: 줄을 위, 아래로 올리기</li>
+  <li>shift+tap: 내려쓰기(out dent)</li>
+  <li>전부다 모아서 shift+tap하면 전체 내려쓰기 가능</li>
+  <li>ctrl+shift+[,]: 탭 앞,뒤로 이동하기</li>
+</ul>
+
+<h2 id="개발을-위한-기본-세팅extension">개발을 위한 기본 세팅(Extension)</h2>
+<ul>
+  <li>korean language: 한글화</li>
+  <li>beautify: 코드 깔끔하게 만들기
+    <ul>
+      <li>ctrl + shift + p -&gt; 바로가기 -&gt; HookyQ.beautify -&gt; 단축키 설정</li>
+    </ul>
+  </li>
+  <li>auto rename tag: 자동으로 테그명 앞 뒷 맞춰주기</li>
+  <li>live server: 실시간으로 웹 프로젝트 브라우저로 출력 가능</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[기본 단축키 ctrl + shift + p: 커맨드 창 열기 ctrl + o: 폴더 열기 프로젝트 단위는 파일이 아닌 폴더(디렉토리) 개념이다. !+탭 or 엔터: html의 기본구조 자동 완성 테그명+tap: 자동완성 파일 개별 저장은 파일명 옆에 동그라미가 사라지고 X로 바뀌면 완성 프로젝트 단위 저장은 Ctrl+Alt+S ctrl+h: 찾은 단어들 바꾸기 또는 모두 바꾸기 Alt+up,down: 줄을 위, 아래로 올리기 shift+tap: 내려쓰기(out dent) 전부다 모아서 shift+tap하면 전체 내려쓰기 가능 ctrl+shift+[,]: 탭 앞,뒤로 이동하기]]></summary></entry><entry><title type="html">그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…</title><link href="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/" rel="alternate" type="text/html" title="그래프 문제를 풀 때 인접 배열이냐.. 인접 리스트냐…" /><published>2023-11-21T20:52:24+09:00</published><updated>2023-11-21T20:53:09+09:00</updated><id>http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/%EC%9D%B8%EC%A0%91%20%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90..%20%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90</id><content type="html" xml:base="http://localhost:4000/algorithm/2023-11-21-%EC%9D%B8%EC%A0%91-%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%83%90/-%EC%9D%B8%EC%A0%91-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%83%90/"><![CDATA[<h2 id="각-방식의-특징과-장단점">각 방식의 특징과 장단점</h2>
 
 <h2 id="다익스트라">다익스트라</h2>
 
@@ -402,7 +503,7 @@ Stack Overflow Trends를 통해 리액트가 2019년을 기점으로 앵귤러�
 
 <p>stackoverflow trends 조사 사이트 (https://insights.stackoverflow.com/trends?tags=reactjs%2Cvue.js%2Cangularreact)</p>
 
-<p>블로그 작성 글: https://coririri.github.io/writingforcs/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우]]></summary></entry><entry><title type="html">그래프 표현 방법</title><link href="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="그래프 표현 방법" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-14T20:29:38+09:00</updated><id>http://localhost:4000/datastruct/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%91%9C%ED%98%84%20%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="dataStruct" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">비평 글</title><link href="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="비평 글" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-21T14:53:02+09:00</updated><id>http://localhost:4000/engineeringwriting/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우</p>
+<p>블로그 작성 글: https://coririri.github.io/writingforcs/2023-10-01-4%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #3. Survey Work　　　　　　　　　　　　　　　201924435 김선우]]></summary></entry><entry><title type="html">비평 글</title><link href="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/" rel="alternate" type="text/html" title="비평 글" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-21T14:53:02+09:00</updated><id>http://localhost:4000/engineeringwriting/3%EC%A3%BC%EC%B0%A8%20%EA%B3%BC%EC%A0%9C</id><content type="html" xml:base="http://localhost:4000/engineeringwriting/2023-09-21-3%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C/"><![CDATA[<p>2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우</p>
 <h1 id="네이버-ai검색-큐복합-의도-분석-아직은-2-부족">네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족</h1>
 <ul>
   <li>글의 요약
@@ -440,93 +541,4 @@ Stack Overflow Trends를 통해 리액트가 2019년을 기점으로 앵귤러�
   </li>
 </ul>
 
-<p><a href="https://www.ceoscoredaily.com/page/view/2023092116204975099">참고 기사</a></p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우 네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족 글의 요약 이 글은 기사에 대한 비평을 공학적 관점에서 적은 글입니다. 글을 선택한 이유 이번에 새롭게 출시한 네이버 생성형 AI 큐에 대한 반응을 알아보기 위해서 이 글을 보았는데, 공학적 관점에서는 받아드리기 힘든 내용들이 많아서 선택하게 되였습니다.]]></summary></entry><entry><title type="html">기술 면접 대비 스터디</title><link href="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" rel="alternate" type="text/html" title="기술 면접 대비 스터디" /><published>2023-08-09T00:28:24+09:00</published><updated>2023-11-21T18:01:35+09:00</updated><id>http://localhost:4000/csstudy/%EA%B8%B0%EC%88%A0%20%EB%A9%B4%EC%A0%91%20%EB%8C%80%EB%B9%84</id><content type="html" xml:base="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="csStudy" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2023-10-01T22:00:51+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
-
-<p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
-
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#linking-in-style" id="markdown-toc-linking-in-style">Linking in Style</a></li>
-  <li><a href="#ready-for-the-big-screen" id="markdown-toc-ready-for-the-big-screen">Ready for the Big Screen</a></li>
-  <li><a href="#whats-in-the-cards" id="markdown-toc-whats-in-the-cards">What’s in the Cards?</a></li>
-  <li><a href="#built-in-search" id="markdown-toc-built-in-search">Built-In Search</a></li>
-  <li><a href="#auto-hiding-navbar" id="markdown-toc-auto-hiding-navbar">Auto-Hiding Navbar</a></li>
-  <li><a href="#sticky-table-of-contents" id="markdown-toc-sticky-table-of-contents">Sticky Table of Contents</a></li>
-  <li><a href="#and-much-more" id="markdown-toc-and-much-more">…and much more</a></li>
-  <li><a href="#even-more-to-come" id="markdown-toc-even-more-to-come">Even More to Come</a></li>
-  <li><a href="#get-it-now" id="markdown-toc-get-it-now">Get It Now</a></li>
-</ul>
-
-<h2 id="linking-in-style">Linking in Style</h2>
-
-<p>Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the <a href="#linking-in-style">link style</a> has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.</p>
-
-<h2 id="ready-for-the-big-screen">Ready for the Big Screen</h2>
-
-<p>The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I’ve made adjustments, such as centering the content column for better reading ergonomics.</p>
-
-<p>With version 9, Hydejack takes full advantage of large displays. Whether it’s design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
-
-<h2 id="whats-in-the-cards">What’s in the Cards?</h2>
-
-<p>Hydejack 9 now lets you use content cards for both projects and posts. 
-The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the <code class="language-plaintext highlighter-rouge">blog</code> layout. The new <code class="language-plaintext highlighter-rouge">grid</code> layout lets you do that.</p>
-
-<p>Good images are key to making the most out of content cards. For that reason, a <a href="/docs/basics/#adding-images">chapter on images</a> has been added to the documentation.</p>
-
-<h2 id="built-in-search">Built-In Search</h2>
-
-<p>Hydejack now has Built-In Search. It even works offline. I’ve been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
-
-<p>The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.</p>
-
-<p>Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.</p>
-
-<h2 id="auto-hiding-navbar">Auto-Hiding Navbar</h2>
-
-<p>A navbar that’s there when you need it, and disappears when you don’t. Simple as that.</p>
-
-<h2 id="sticky-table-of-contents">Sticky Table of Contents</h2>
-
-<p>Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
-What’s unique about it is that it simply picks up the table of contents already created by kramdown’s <code class="language-plaintext highlighter-rouge">{:toc}</code> tag and transparently upgrades it to a fully dynamic version.</p>
-
-<h2 id="and-much-more">…and much more</h2>
-
-<p>Other noteworthy changes include:</p>
-<ul>
-  <li>Support for Jekyll 4</li>
-  <li>Choice between MathJax and KaTeX for math rendering</li>
-  <li>Use of <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> for drastically improved page building speeds</li>
-  <li>New variables configuration file — adjust content width, sidebar width, font size, etc…</li>
-  <li>…and the option to disable grouping projects by year.</li>
-</ul>
-
-<p>Read the the <a href="/CHANGELOG/" class="heading flip-title">CHANGELOG</a> for the full scope of features and improvements made in Hydejack 9.
-Maybe just glance at it to confirm that it is indeed a pretty long list.</p>
-
-<h2 id="even-more-to-come">Even More to Come</h2>
-
-<p>New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.</p>
-
-<h2 id="get-it-now">Get It Now</h2>
-<p>The Free Version of Hydejack is now availabe on <a href="https://rubygems.org/gems/jekyll-theme-hydejack">RubyGems</a>
-and for the first time also on <a href="https://github.com/hydecorp/hydejack/packages">GitHub Packages</a>. 
-The source code is available on <a href="https://github.com/hydecorp/hydejack">GitHub</a> as always.</p>
-
-<p>The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:</p>
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>If you are a fan of the old two-column layout, or don’t like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-
-      <p>Search was mainly tested for English and German. Please let me know about issues in other languages. 
-  While I’ve tried to find a multi-language solution, most showed drastically worse  results for the English base case.
-  If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><a href="https://www.ceoscoredaily.com/page/view/2023092116204975099">참고 기사</a></p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="engineeringWriting" /><summary type="html"><![CDATA[2023 공학작문과 발표 / 과제 #2. 나쁜 글　　　　　　　　　　　　　　　　　　　201924435 김선우 네이버 AI검색 ‘큐:’…‘복합 의도’ 분석, 아직은 2% 부족 글의 요약 이 글은 기사에 대한 비평을 공학적 관점에서 적은 글입니다. 글을 선택한 이유 이번에 새롭게 출시한 네이버 생성형 AI 큐에 대한 반응을 알아보기 위해서 이 글을 보았는데, 공학적 관점에서는 받아드리기 힘든 내용들이 많아서 선택하게 되였습니다.]]></summary></entry><entry><title type="html">그래프 표현 방법</title><link href="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="그래프 표현 방법" /><published>2023-09-21T20:52:24+09:00</published><updated>2023-11-14T20:29:38+09:00</updated><id>http://localhost:4000/datastruct/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%91%9C%ED%98%84%20%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/datastruct/2023-09-21-%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84-%EB%B0%A9%EB%B2%95/"><![CDATA[]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="dataStruct" /><summary type="html"><![CDATA[]]></summary></entry></feed>
