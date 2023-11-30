@@ -30,22 +30,22 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>기술 면접 대비 스터디 | Gomdarachi의 기술블로그</title>
+<title>CSS 선택자와 상속 총 정리 | Gomdarachi의 기술블로그</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="기술 면접 대비 스터디" />
+<meta property="og:title" content="CSS 선택자와 상속 총 정리" />
 <meta name="author" content="<Kim> <SunWoo>" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<link rel="canonical" href="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" />
-<meta property="og:url" content="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" />
+<meta name="description" content="기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/" />
+<meta property="og:description" content="기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/" />
+<link rel="canonical" href="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" />
+<meta property="og:url" content="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" />
 <meta property="og:site_name" content="Gomdarachi의 기술블로그" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-08-09T00:28:24+09:00" />
+<meta property="article:published_time" content="2023-11-30T17:04:24+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="기술 면접 대비 스터디" />
+<meta property="twitter:title" content="CSS 선택자와 상속 총 정리" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2023-11-21T18:01:35+09:00","datePublished":"2023-08-09T00:28:24+09:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"기술 면접 대비 스터디","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2023-11-30T19:30:35+09:00","datePublished":"2023-11-30T17:04:24+09:00","description":"기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/","headline":"CSS 선택자와 상속 총 정리","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -73,7 +73,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.1.6" />
 
 
-<link rel="alternate" href="http://localhost:4000/csstudy/2023-08-09-%EA%B8%B0%EC%88%A0-%EB%A9%B4%EC%A0%91-%EB%8C%80%EB%B9%84/" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" hreflang="en">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Gomdarachi의 기술블로그" />
 
@@ -186,14 +186,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           <span>/</span>
           
           
-          <a href="/csstudy/">csstudy</a>
+          <a href="/css/">css</a>
         
       </li>
     
       <li>
         
           <span>/</span>
-          <span>2023-08-09-기술-면접-대비</span>
+          <span>2023-11-30-CSS-선택자와-상속-총-정리</span>
         
       </li>
     
@@ -210,31 +210,23 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
 
 
 
-<article id="post-csstudy-기술 면접 대비" class="page post mb6" role="article">
+<article id="post-css-CSS 선택자와 상속 총 정리" class="page post mb6" role="article">
   <header>
     <h1 class="post-title flip-project-title">
       
-        기술 면접 대비 스터디
+        CSS 선택자와 상속 총 정리
       
     </h1>
 
     <div class="post-date">
       
       <span class="ellipsis mr1">
-        <time datetime="2023-08-09T00:28:24+09:00">09 Aug 2023</time> in <span>Csstudy</span> 
+        <time datetime="2023-11-30T17:04:24+09:00">30 Nov 2023</time> in <span>Css</span> 
       </span>
       
         
           
           
-          
-            
-            
-            <span class="ellipsis" data-tippy-content="Last modified at: 21 Nov 2023">
-              <span class="sr-only">Last modified at:</span>
-              <span class="icon-history"></span>
-              <time datetime="2023-11-21T18:01:35+09:00">2023-11-21</time>
-            </span>
           
         
       
@@ -253,7 +245,172 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   </header>
 
   
-    
+    <h2 id="기본-문법">기본 문법</h2>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">선택자</span> <span class="p">{</span> <span class="py">속성</span><span class="p">:</span> <span class="n">값</span><span class="p">;</span> <span class="p">}</span>
+  <span class="c">/*주석입니다!!*/</span> <span class="nt">또는</span> <span class="nt">단축키</span> <span class="nt">ctrl</span><span class="o">+/</span>
+</code></pre></div></div>
+
+<h2 id="선언-방식">선언 방식</h2>
+<ul>
+  <li>내장 방식<br />
+html파일 내부 head안에 style태그를 이용해서 선언하는 방식<br />
+그다지 개발 시 좋은 방식은 아니지만 실제 제품이 번들 될 때, 가끔 내장 될 떄 가 있다.</li>
+  <li>링크 방식
+요소 내부에 style 전역 속성에 직접 추가하는 방식
+CSS 우선순위가 지나치게 높기 때문에 유지보수에 좋지 않다.<br />
+병렬 방식으로 비교적 먼저 가져와지는 것부터 해석한다.</li>
+  <li>인라인 방식
+head 내부에 link태그를 사용해 외부 CSS 문서를 가져와서 연결하는 방식</li>
+  <li>@import 방식
+CSS의 @import 규칙으로 CSS 문서 안에서 또 다른 CSS 문서를 가져와 연결하는 방식<br />
+직렬로 연결한다고 할 수 있다.
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="sx">url()</span><span class="p">;</span>
+</code></pre></div>    </div>
+
+    <h2 id="선택자">선택자</h2>
+    <p>기본, 복합, 가상 클래스, 가상 요소, 속성 선택자들이 존재한다.</p>
+    <h3 id="--기본-선택자">- <strong>기본 선택자</strong></h3>
+    <ul>
+      <li>전체 선택자
+*: 모든 요소를 선택</li>
+      <li>태그 선택자
+ex) li, a 같이 태그 이름</li>
+      <li>클래스 선택자
+clsss 속성의 값앞에 .을 붙여 사용</li>
+      <li>id 선택자
+id 속성의 값앞에 #을 붙여 사용
+        <h3 id="--복합-선택자">- <strong>복합 선택자</strong></h3>
+      </li>
+      <li>일치 선택자
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">span</span><span class="nc">.orange</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <p>앞 뒤를 동시에 만족하는 요소를 선택.<br />
+항상 태그 선택자를 제일 앞에 적는게 좋다.</p>
+      </li>
+      <li>자식 선택자
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">ul</span> <span class="o">&gt;</span> <span class="nc">.orange</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <p>ul의 자식요소 .orange를 선택.</p>
+      </li>
+      <li>하위(후손) 선택자
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">ul</span> <span class="nc">.orange</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <p>ul의 하위 요소 .orange를 선택</p>
+      </li>
+      <li>인접 형제 선택자
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.orange</span> <span class="o">+</span> <span class="nt">li</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <p>.orange의 바로 다음 형제 요소인 li를 하나 선택</p>
+      </li>
+      <li>일반 형제 선택자
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.orange</span> <span class="o">~</span> <span class="nt">li</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <p>.orange의 다음 형제 요소인 li를 전부 다 선택</p>
+        <h3 id="--가상-클래스">- <strong>가상 클래스</strong></h3>
+        <p>우리가 어떠한 행동을 했을 때 동작하는 개념</p>
+      </li>
+      <li>ABC:hover
+선택자 ABC 요소에 마우스 커서가 올라가 있는 동안 선택.</li>
+      <li>ABC:active
+선택자 ABC 요소에 마우스 클릭하고 있는 동안 선택.</li>
+      <li>ABC:focus
+선택자 ABC 요소가 포커스 되면 선택.<br />
+Fouct가 될 수 있는 요소는 HTML 대화형 콘텐츠가 해당하고 한 페이지에 1개만 focus 가능<br />
+ex) INPUT, A, BUTTON, LABEL, SELECT 등..<br />
+또한 tabindex 속성에 -1을 줘 Focus가 될 수 있습니다.</li>
+      <li>ABC:first-child
+선택자 ABC가 형제 요소 중 첫째라면 선택</li>
+      <li>ABC:last-child
+선택자 ABC가 형제 요소 중 마지막이라면 선택</li>
+      <li>ABC:nth-child(n)
+선택자 ABC가 형제 요소 중 n번째라면 선택<br />
+ABC:nth-child(2n) 짝수 번째 요소들만 선택<br />
+ABC:nth-child(2n+1) 홀수 번째 요소들만 선택<br />
+ABC:nth-child(n+2) 두 번째 요소 부터 선택</li>
+      <li>ABC:not(XYZ)
+선택자 XYZ가 아닌 ABC 요소 선택
+        <h3 id="--가상-요소-선택자">- <strong>가상 요소 선택자</strong></h3>
+        <p>선택자::가상 요소 선택자 콜론이 1개여도 되지만 웹 표준에 맞지 않다.<br />
+  content 값을 비워주는 한이 있더라도 꼭 삽입 해줘야 한다.</p>
+      </li>
+      <li>ABC::before
+선택자 ABC 요소의 내부 가장 앞에 내용을 삽입
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.box</span><span class="nd">::before</span> <span class="p">{</span>
+  <span class="nl">content</span><span class="p">:</span> <span class="s1">"앞!"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">--</span> <span class="nc">.box라는</span> <span class="nt">선택자의</span> <span class="nt">자식의</span> <span class="nt">가장</span> <span class="nt">앞에</span> <span class="nt">inline</span> <span class="nt">요소를</span> <span class="nt">삽입</span>
+</code></pre></div>        </div>
+      </li>
+      <li>ABC::after
+선택자 ABC 요소의 내부 기장 뒤에 내용을 삽입
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.box</span><span class="nd">::after</span> <span class="p">{</span>
+  <span class="nl">content</span><span class="p">:</span> <span class="s1">"뒤!"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">--</span> <span class="nc">.box라는</span> <span class="nt">선택자의</span> <span class="nt">자식의</span> <span class="nt">가장</span> <span class="nt">뒤에</span> <span class="nt">inline</span> <span class="nt">요소를</span> <span class="nt">삽입</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+
+    <h3 id="--속성-선택자">- <strong>속성 선택자</strong></h3>
+    <ul>
+      <li>
+        <p>일반적으로 유용하지는 않음</p>
+      </li>
+      <li>
+        <p>속성 ABC가 값 XYZ인 요소 선택</p>
+      </li>
+    </ul>
+
+    <h2 id="스타일-상속">스타일 상속</h2>
+    <p>모두 글자/문자 관련 속성들</p>
+    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">font-style</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">기울기</span>
+  <span class="nt">font-weight</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">두깨</span>
+  <span class="nt">font-size</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">크기</span>
+  <span class="nt">line-height</span><span class="o">:</span> <span class="nt">줄</span> <span class="nt">높이</span>
+  <span class="nt">font-family</span><span class="o">:</span> <span class="nt">폰트</span><span class="o">(</span><span class="nt">서체</span><span class="o">)</span>
+  <span class="nt">color</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">색상</span>
+  <span class="nt">text-align</span><span class="o">:</span> <span class="nt">정렬</span>
+  <span class="o">...</span>
+</code></pre></div>    </div>
+    <ul>
+      <li>강제 상속
+        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.parent</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.child</span> <span class="p">{</span>
+  <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="nb">inherit</span><span class="p">;</span> <span class="err">//</span> <span class="err">강제</span> <span class="err">상속!</span>
+<span class="p">}</span>
+</code></pre></div>        </div>
+        <h2 id="선택자-우선순위">선택자 우선순위</h2>
+        <p>같은 요소가 여러 선언의 대상이 된 경우,<br />
+어떤 선언의 CSS속성을 우선 적용할지 결정하는 방법
+        1. 점수가 높은 선언이 우선한!
+        2. 점수가 같으면, 가장 마짐가에 해석된 선언이 적용</p>
+        <h3 id="선언-방식에-따른-점수">선언 방식에 따른 점수</h3>
+      </li>
+      <li>!important 선언시 9999999999점</li>
+      <li>인라인 선언: 1000점</li>
+      <li>id 선택자: 100점</li>
+      <li>class 선택자: 10점</li>
+      <li>태그 선택자: 1점</li>
+      <li>전체 선택자: 0점</li>
+      <li>상속은 별도로 점수 계산 안함</li>
+    </ul>
+  </li>
+</ul>
 
   
 </article>
@@ -382,7 +539,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
 
-  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" class="flip-title"><span>CSS 선택자와 상속 총 정리</span></a>  <time class="faded fine" datetime="2023-11-30T17:04:24+09:00">30 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/" class="flip-title"><span>HTML 핵심</span></a>  <time class="faded fine" datetime="2023-11-30T11:22:24+09:00">30 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" class="flip-title"><span>HTML 개요</span></a>  <time class="faded fine" datetime="2023-11-29T17:59:24+09:00">29 Nov 2023</time></li>            </ul></aside>
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/" class="flip-title"><span>HTML 핵심</span></a>  <time class="faded fine" datetime="2023-11-30T11:22:24+09:00">30 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" class="flip-title"><span>HTML 개요</span></a>  <time class="faded fine" datetime="2023-11-29T17:59:24+09:00">29 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-a-%ED%85%8C%EA%B7%B8/" class="flip-title"><span>a 테그에 대한 정리</span></a>  <time class="faded fine" datetime="2023-11-29T17:17:24+09:00">29 Nov 2023</time></li>            </ul></aside>
 
   
 
