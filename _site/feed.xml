@@ -1,5 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-30T19:30:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">CSS 선택자와 상속 총 정리</title><link href="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="CSS 선택자와 상속 총 정리" /><published>2023-11-30T17:04:24+09:00</published><updated>2023-11-30T19:30:35+09:00</updated><id>http://localhost:4000/css/CSS%20%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80%20%EC%83%81%EC%86%8D%20%EC%B4%9D%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="기본-문법">기본 문법</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-04T23:42:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">CSS 박스 모델</title><link href="http://localhost:4000/css/2023-12-04-CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="CSS 박스 모델" /><published>2023-12-04T22:53:24+09:00</published><updated>2023-12-04T23:42:05+09:00</updated><id>http://localhost:4000/css/CSS%20%EB%B0%95%EC%8A%A4%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/css/2023-12-04-CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8/"><![CDATA[<h2 id="css-단위">CSS 단위</h2>
+<ol>
+  <li>px 픽셀</li>
+  <li>% 상대벅 백분율
+  기준은 부모 요소의 너비를 기준.</li>
+  <li>em 요소의 글꼴 크기
+  요소에 fontSize를 지정해주지 않으면 16px이 지정 됨.<br />
+  fontSize는 상속되서 내려 감</li>
+  <li>rem 루트 요소(html)의 글꼴 크기</li>
+  <li>vw 뷰포트 가로 너비의 백분율</li>
+  <li>vh 뷰포트 세로 너비의 백분율</li>
+</ol>
+
+<h2 id="너비width-height">너비(width, height)</h2>
+<p>기본 값: auto (브라우저가 너비를 계산)<br />
+단위: px, em, vw 등 단위로 지정<br />
+브라우저가 계산한다는 것의 의미:</p>
+<ol>
+  <li>인라인 요소
+콘텐츠 크기만큼만 사용하고 넓이, 높이 둘다 최대한 줄여서 사용 하려고 함.</li>
+  <li>블록 요소
+너비는 부모요소만큼 넓어지려고 하고, 높이는 콘텐츠 크기만큼 최대한 줄여서 사용 하려고 함.</li>
+</ol>
+
+<h2 id="최대-너비max-width-max-height">최대 너비(max-width, max-height)</h2>
+<p>기본 값: none (최대 너비 제한 없음)<br />
+단위: px, em, vw 등 단위로 지정</p>
+
+<h2 id="최소-너비min-width-min-height">최소 너비(min-width, min-height)</h2>
+<p>기본 값: 0 (최소 너비 제한 없음)<br />
+단위: px, em, vw 등 단위로 지정</p>
+
+<h2 id="외부-여백margin">외부 여백(margin)</h2>
+<p>기본 값: 0(외부 여백 없음)<br />
+auto: 브라우저가 여백을 계산 (가운데 정렬)<br />
+단위; px, em, vw등 단위로 지정(음수 가능)</p>
+
+<h2 id="내부-여백padding">내부 여백(padding)</h2>
+<p>요소의 크기가 커져요!!<br />
+기본 값: 0(내부 여백 없음)<br />
+단위; px, em, vw등 단위로 지정<br />
+%: 부모 요소의 가로 너비에 대한 비율로 지정</p>
+
+<h2 id="테두리border">테두리(border)</h2>
+<p>요소의 크기가 늘어남<br />
+border: 선-두께(width) 선-종류(style) 선-색상(color)</p>
+<h3 id="두께">두께</h3>
+<p>기본 값: medium</p>
+<h3 id="종류">종류</h3>
+<p>기본 값: none<br />
+자주 사용하는 값: solid(실선), dashed(파선)</p>
+<h3 id="색상">색상</h3>
+<p>기본 값: black<br />
+단위: 색상, transparent: 투명</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="css" /><summary type="html"><![CDATA[CSS 단위 px 픽셀 % 상대벅 백분율 기준은 부모 요소의 너비를 기준. em 요소의 글꼴 크기 요소에 fontSize를 지정해주지 않으면 16px이 지정 됨. fontSize는 상속되서 내려 감 rem 루트 요소(html)의 글꼴 크기 vw 뷰포트 가로 너비의 백분율 vh 뷰포트 세로 너비의 백분율]]></summary></entry><entry><title type="html">CSS 선택자와 상속 총 정리</title><link href="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="CSS 선택자와 상속 총 정리" /><published>2023-11-30T17:04:24+09:00</published><updated>2023-11-30T19:30:35+09:00</updated><id>http://localhost:4000/css/CSS%20%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80%20%EC%83%81%EC%86%8D%20%EC%B4%9D%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="기본-문법">기본 문법</h2>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">선택자</span> <span class="p">{</span> <span class="py">속성</span><span class="p">:</span> <span class="n">값</span><span class="p">;</span> <span class="p">}</span>
   <span class="c">/*주석입니다!!*/</span> <span class="nt">또는</span> <span class="nt">단축키</span> <span class="nt">ctrl</span><span class="o">+/</span>
 </code></pre></div></div>
@@ -164,7 +217,7 @@ ABC:nth-child(n+2) 두 번째 요소 부터 선택</li>
       <li>상속은 별도로 점수 계산 안함</li>
     </ul>
   </li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="css" /><summary type="html"><![CDATA[기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/]]></summary></entry><entry><title type="html">HTML 핵심</title><link href="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/" rel="alternate" type="text/html" title="HTML 핵심" /><published>2023-11-30T11:22:24+09:00</published><updated>2023-11-30T12:00:20+09:00</updated><id>http://localhost:4000/html/HTML%20%ED%95%B5%EC%8B%AC</id><content type="html" xml:base="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"><![CDATA[<h2 id="핵심-요소들">핵심 요소들</h2>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="css" /><summary type="html"><![CDATA[기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/]]></summary></entry><entry><title type="html">HTML 핵심</title><link href="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/" rel="alternate" type="text/html" title="HTML 핵심" /><published>2023-11-30T11:22:24+09:00</published><updated>2023-12-04T22:51:27+09:00</updated><id>http://localhost:4000/html/HTML%20%ED%95%B5%EC%8B%AC</id><content type="html" xml:base="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"><![CDATA[<h2 id="핵심-요소들">핵심 요소들</h2>
 
 <h3 id="div-division">div (Division)</h3>
 <p>블록 요소<br />
@@ -239,7 +292,31 @@ html에서 그냥 줄바꿈은 반영 안 된다.</p>
 <p>요소를 지칭하는 고유한 이름.</p>
 <h3 id="data-이름">data-이름</h3>
 <p>요소에 데이터를 잠시 저장하는 용도.<br />
-JS에서 요소.dataset.데이터이름에 담겨있다.</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="html" /><summary type="html"><![CDATA[핵심 요소들]]></summary></entry><entry><title type="html">HTML 개요</title><link href="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" rel="alternate" type="text/html" title="HTML 개요" /><published>2023-11-29T17:59:24+09:00</published><updated>2023-11-30T11:37:45+09:00</updated><id>http://localhost:4000/html/HTML%20%EA%B0%9C%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/"><![CDATA[<h2 id="요소">요소</h2>
+JS에서 요소.dataset.데이터이름에 담겨있다.</p>
+
+<h2 id="전역-속성-1">전역 속성</h2>
+
+<h3 id="title-1">title</h3>
+<p>요소에 마우스를 올리면 조그마난 팁이 뜨게 헤줌</p>
+
+<h3 id="class-1">class</h3>
+<p>요소를 구분해주는 반복 사용 가능한 속성</p>
+
+<h3 id="id-1">id</h3>
+<p>요소를 구분해주는 반복 사용하면 안 되는 속성</p>
+
+<h3 id="data-이름-1">data-이름</h3>
+<p>요소에 데이터를 저장해두고 js에서 사용 가능한 속성</p>
+
+<pre><code class="language-HTML">&lt;div data-fruit-name="apple"&gt;사과&lt;/div&gt;
+&lt;div data-fruit-name="banana"&gt;바나나&lt;/div&gt;
+</code></pre>
+
+<pre><code class="language-JAVASCRIPT">const els = document.querySelectorAll('div')
+els.forEach(el =&gt; {
+  console.log(el.dataset.fruitName)
+})
+</code></pre>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="html" /><summary type="html"><![CDATA[핵심 요소들]]></summary></entry><entry><title type="html">HTML 개요</title><link href="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" rel="alternate" type="text/html" title="HTML 개요" /><published>2023-11-29T17:59:24+09:00</published><updated>2023-11-30T11:37:45+09:00</updated><id>http://localhost:4000/html/HTML%20%EA%B0%9C%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/"><![CDATA[<h2 id="요소">요소</h2>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;태그&gt;</span>내용<span class="nt">&lt;태그&gt;</span> : 요소(Element) or 태그라고 부름
 </code></pre></div></div>
 
@@ -406,30 +483,4 @@ root(index.html 파일이 있는 경로)</li>
       </li>
     </ul>
   </li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[전체 구조 ```html &lt;!DOCTYPE html&gt;]]></summary></entry><entry><title type="html">VisualStudioCode의 단축키</title><link href="http://localhost:4000/frontendbasic/2023-11-21-VisualStudioCode%EC%9D%98-%EB%8B%A8%EC%B6%95%ED%82%A4/" rel="alternate" type="text/html" title="VisualStudioCode의 단축키" /><published>2023-11-21T21:11:24+09:00</published><updated>2023-11-28T14:21:50+09:00</updated><id>http://localhost:4000/frontendbasic/VisualStudioCode%EC%9D%98%20%EB%8B%A8%EC%B6%95%ED%82%A4</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-21-VisualStudioCode%EC%9D%98-%EB%8B%A8%EC%B6%95%ED%82%A4/"><![CDATA[<h2 id="기본-단축키">기본 단축키</h2>
-<ul>
-  <li>ctrl + shift + p: 커맨드 창 열기</li>
-  <li>ctrl + o: 폴더 열기</li>
-  <li>프로젝트 단위는 파일이 아닌 폴더(디렉토리) 개념이다.</li>
-  <li>!+탭 or 엔터: html의 기본구조 자동 완성</li>
-  <li>테그명+tap: 자동완성</li>
-  <li>파일 개별 저장은 파일명 옆에 동그라미가 사라지고 X로 바뀌면 완성</li>
-  <li>프로젝트 단위 저장은 Ctrl+Alt+S</li>
-  <li>ctrl+h: 찾은 단어들 바꾸기 또는 모두 바꾸기</li>
-  <li>Alt+up,down: 줄을 위, 아래로 올리기</li>
-  <li>shift+tap: 내려쓰기(out dent)</li>
-  <li>전부다 모아서 shift+tap하면 전체 내려쓰기 가능</li>
-  <li>ctrl+shift+[,]: 탭 앞,뒤로 이동하기</li>
-</ul>
-
-<h2 id="개발을-위한-기본-세팅extension">개발을 위한 기본 세팅(Extension)</h2>
-<ul>
-  <li>korean language: 한글화</li>
-  <li>beautify: 코드 깔끔하게 만들기
-    <ul>
-      <li>ctrl + shift + p -&gt; 바로가기 -&gt; HookyQ.beautify -&gt; 단축키 설정</li>
-    </ul>
-  </li>
-  <li>auto rename tag: 자동으로 테그명 앞 뒷 맞춰주기</li>
-  <li>live server: 실시간으로 웹 프로젝트 브라우저로 출력 가능</li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[기본 단축키 ctrl + shift + p: 커맨드 창 열기 ctrl + o: 폴더 열기 프로젝트 단위는 파일이 아닌 폴더(디렉토리) 개념이다. !+탭 or 엔터: html의 기본구조 자동 완성 테그명+tap: 자동완성 파일 개별 저장은 파일명 옆에 동그라미가 사라지고 X로 바뀌면 완성 프로젝트 단위 저장은 Ctrl+Alt+S ctrl+h: 찾은 단어들 바꾸기 또는 모두 바꾸기 Alt+up,down: 줄을 위, 아래로 올리기 shift+tap: 내려쓰기(out dent) 전부다 모아서 shift+tap하면 전체 내려쓰기 가능 ctrl+shift+[,]: 탭 앞,뒤로 이동하기]]></summary></entry></feed>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[전체 구조 ```html &lt;!DOCTYPE html&gt;]]></summary></entry></feed>

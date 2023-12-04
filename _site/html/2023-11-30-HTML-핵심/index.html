@@ -45,7 +45,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HTML 핵심" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2023-11-30T12:00:20+09:00","datePublished":"2023-11-30T11:22:24+09:00","description":"핵심 요소들","headline":"HTML 핵심","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2023-12-04T22:51:27+09:00","datePublished":"2023-11-30T11:22:24+09:00","description":"핵심 요소들","headline":"HTML 핵심","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -108,7 +108,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2023-11-30T19:30:35+09:00',
+    INDEX_KEY: 'index--2023-12-04T23:42:05+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -228,6 +228,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
           
           
           
+            
+            
+            <span class="ellipsis" data-tippy-content="Last modified at: 04 Dec 2023">
+              <span class="sr-only">Last modified at:</span>
+              <span class="icon-history"></span>
+              <time datetime="2023-12-04T22:51:27+09:00">2023-12-04</time>
+            </span>
+          
         
       
     </div>
@@ -321,6 +329,30 @@ html에서 그냥 줄바꿈은 반영 안 된다.</p>
 <h3 id="data-이름">data-이름</h3>
 <p>요소에 데이터를 잠시 저장하는 용도.<br />
 JS에서 요소.dataset.데이터이름에 담겨있다.</p>
+
+<h2 id="전역-속성-1">전역 속성</h2>
+
+<h3 id="title-1">title</h3>
+<p>요소에 마우스를 올리면 조그마난 팁이 뜨게 헤줌</p>
+
+<h3 id="class-1">class</h3>
+<p>요소를 구분해주는 반복 사용 가능한 속성</p>
+
+<h3 id="id-1">id</h3>
+<p>요소를 구분해주는 반복 사용하면 안 되는 속성</p>
+
+<h3 id="data-이름-1">data-이름</h3>
+<p>요소에 데이터를 저장해두고 js에서 사용 가능한 속성</p>
+
+<pre><code class="language-HTML">&lt;div data-fruit-name="apple"&gt;사과&lt;/div&gt;
+&lt;div data-fruit-name="banana"&gt;바나나&lt;/div&gt;
+</code></pre>
+
+<pre><code class="language-JAVASCRIPT">const els = document.querySelectorAll('div')
+els.forEach(el =&gt; {
+  console.log(el.dataset.fruitName)
+})
+</code></pre>
 
   
 </article>
@@ -449,7 +481,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
 
-  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" class="flip-title"><span>CSS 선택자와 상속 총 정리</span></a>  <time class="faded fine" datetime="2023-11-30T17:04:24+09:00">30 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" class="flip-title"><span>HTML 개요</span></a>  <time class="faded fine" datetime="2023-11-29T17:59:24+09:00">29 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-a-%ED%85%8C%EA%B7%B8/" class="flip-title"><span>a 테그에 대한 정리</span></a>  <time class="faded fine" datetime="2023-11-29T17:17:24+09:00">29 Nov 2023</time></li>            </ul></aside>
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/css/2023-12-04-CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8/" class="flip-title"><span>CSS 박스 모델</span></a>  <time class="faded fine" datetime="2023-12-04T22:53:24+09:00">04 Dec 2023</time></li>                        <li class="h4">  <a href="/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" class="flip-title"><span>CSS 선택자와 상속 총 정리</span></a>  <time class="faded fine" datetime="2023-11-30T17:04:24+09:00">30 Nov 2023</time></li>                        <li class="h4">  <a href="/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" class="flip-title"><span>HTML 개요</span></a>  <time class="faded fine" datetime="2023-11-29T17:59:24+09:00">29 Nov 2023</time></li>            </ul></aside>
 
   
 
