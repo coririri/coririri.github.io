@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ko"><!--
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+
+Powered by Hydejack v9.1.6 <https://hydejack.com/>
+-->
+
+
+
+
+
+
+
+<head>
+  
+
+
+
+
+
+
+  
+    
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>VITE에 대해서 | Gomdarachi의 기술블로그</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="VITE에 대해서" />
+<meta name="author" content="<Kim> <SunWoo>" />
+<meta property="og:locale" content="ko" />
+<meta name="description" content="Vite는 모던 웹 프로젝트 빌드 도구이다." />
+<meta property="og:description" content="Vite는 모던 웹 프로젝트 빌드 도구이다." />
+<link rel="canonical" href="http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" />
+<meta property="og:url" content="http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" />
+<meta property="og:site_name" content="Gomdarachi의 기술블로그" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-01-22T17:17:24+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="VITE에 대해서" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2024-01-22T18:27:07+09:00","datePublished":"2024-01-22T17:17:24+09:00","description":"Vite는 모던 웹 프로젝트 빌드 도구이다.","headline":"VITE에 대해서","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  
+
+
+
+  <meta name="theme-color" content="rgb(25,55,71)">
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Gomdarachi의 기술블로그">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<meta name="application-name" content="Gomdarachi의 기술블로그">
+
+<meta name="generator" content="Hydejack v9.1.6" />
+
+
+<link rel="alternate" href="http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" hreflang="ko">
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Gomdarachi의 기술블로그" />
+
+
+<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+
+<link rel="manifest" href="/assets/site.webmanifest">
+
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+
+
+<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
+
+
+
+
+
+
+<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+!function(w) {
+  w._baseURL = '/';
+  w._publicPath = '/assets/js/';
+  w._noPushState = false;
+  w._noDrawer = false;
+  w._noNavbar = false;
+  w._noToc = false;
+  w._noSearch = false;
+  w._search = {
+    DATA_URL: '/assets/sitedata.json?no-cache',
+    STORAGE_KEY: 'mini-search/',
+    INDEX_KEY: 'index--2024-01-23T00:36:31+09:00',
+  };
+  w._clapButton = true;
+}(window);</script>
+
+
+<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
+
+
+<!--[if gt IE 8]><!---->
+
+  
+
+
+
+
+<link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
+<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
+
+
+
+  <style id="_pageStyle">
+
+html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.5);--accent-color-highlight: rgba(79, 177, 186, 0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
+</style>
+
+
+<!--<![endif]-->
+
+
+
+
+</head>
+
+<body class="no-break-layout">
+  
+
+
+<hy-push-state
+  id="_pushState"
+  replace-selector="#_main"
+  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
+  script-selector="script"
+  duration="500"
+  hashchange
+>
+  
+  
+  <div id="_navbar" class="navbar fixed-top">
+  <div class="content">
+    <span class="sr-only">Jump to:</span>
+    <div class="nav-btn-bar">
+      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
+        <span class="sr-only">Navigation</span>
+        <span class="icon-menu"></span>
+      </a>
+      <div class="nav-span"></div>
+    </div>
+  </div>
+</div>
+<hr class="sr-only" hidden />
+
+  <main
+  id="_main"
+  class="content layout-post"
+  role="main"
+>
+  <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+    <li><a href="/">home</a></li>
+    
+      <li>
+        
+          <span>/</span>
+          
+          
+          <a href="/haanppen/">haanppen</a>
+        
+      </li>
+    
+      <li>
+        
+          <span>/</span>
+          <span>2024-01-22-VITE에-대해서</span>
+        
+      </li>
+    
+  
+</ul></nav>
+  
+
+
+
+
+
+
+
+
+
+
+<article id="post-haanppen-VITE에 대해서" class="page post mb6" role="article">
+  <header>
+    <h1 class="post-title flip-project-title">
+      
+        VITE에 대해서
+      
+    </h1>
+
+    <div class="post-date">
+      
+      <span class="ellipsis mr1">
+        <time datetime="2024-01-22T17:17:24+09:00">22 Jan 2024</time> in <span>Haanppen</span> 
+      </span>
+      
+        
+          
+          
+          
+        
+      
+    </div>
+
+    
+    
+
+    
+
+
+
+  <div class="hr pb0"></div>
+
+
+  </header>
+
+  
+    <p>Vite는 모던 웹 프로젝트 빌드 도구이다.</p>
+
+<h2 id="추가-학습">추가 학습!</h2>
+<ul>
+  <li>빌드란?
+<a href="https://en.wikipedia.org/wiki/Software_build">Wikipedia 정의</a> 을 참고하면
+    <blockquote>
+      <p>빌드란 소스 코드 파일을 독립적인 소프트웨어 아티팩트(artifact)로 변환하는 과정이거나 그 결과물을 나타냅니다. 이 아티팩트는 컴퓨터에서 실행될 수 있는 형태로 만들어집니다.</p>
+    </blockquote>
+  </li>
+  <li>웹 번들이란?</li>
+</ul>
+
+<p><a href="https://developer.chrome.com/docs/web-platform/web-bundles?hl=ko">Chrome for Developers</a> 을 참고하면</p>
+<blockquote>
+  <p>웹 번들은 하나 이상의 HTTP 리소스를 단일 파일에 캡슐화하기 위한 파일 형식입니다</p>
+</blockquote>
+
+<ul>
+  <li>나눠서 리소스를 받아 로딩하던 웹 파일들을 하나의 .wbn파일로 묶어주는 것이다</li>
+</ul>
+
+<h3 id="빌드의-장점">빌드의 장점</h3>
+<ol>
+  <li>wdn파일만 있다면 오프라인에서도 웹 어플리케이션을 실행할 수 있다.</li>
+  <li>웹 서버에서 최초로 파일을 받아오면 더 이상 로딩을 위해 네트워크 자원을 낭비할 필요가 없다.</li>
+</ol>
+
+<h3 id="빌드의-단점">빌드의 단점</h3>
+<ol>
+  <li>초기 로딩 속도가 커진다.</li>
+</ol>
+
+<h3 id="웹-번들이-나오게-된-계기">웹 번들이 나오게 된 계기</h3>
+<ol>
+  <li>여러 js파일들을 사용하다보니, 전역 변수명이 겹치는 문제가 발생하였습니다</li>
+  <li>불러와야하는 모듈의 순서가 있다 (의존의 문제가 있기 때문)</li>
+</ol>
+
+<h2 id="vite에-대해서">VITE에 대해서</h2>
+<p>ES6에서 도입된 ESM(ES Modules)를 대부분 브라우저에서 지원하는 점 및 네이티브 언어로 작성된 Javascript 도구 등을 활용해 서버 구동 시간을 단축 시켜주는 웹 번들링 도구입니다.</p>
+<ul>
+  <li>Webpack, Rollup 그리고 Parcel VS VITE
+    <ol>
+      <li>브라우저에서 지원하는 ESM을 사용하지 않고, 미리 JS파일들을 번들링 해, 클라이언트에게 실행 가능한 파일을 전달 하지만, VITE는 배포 시에만 번들링을 수행하고, 이후에는 ESM을 사용해 서버 구동 시간을 줄인다.</li>
+      <li>Go언어로 작성된 Esbuild를 사용해 Parcel과 Webpack보다 10-100배 빠른 번들링을 수행한다.</li>
+    </ol>
+  </li>
+  <li>Dependencies vs Source code
+    <ol>
+      <li>Dependencies
+개발 시 내용이 바뀌지 않을 일반적인 js모듈들을 esBuild를 사용해 빠르게 번들링 한다</li>
+      <li>Source code
+JSX, CSS 또는 Vue/Svelte 컴포넌트와 같이 컴파일링이 필요하고, 수정 또한 매우 잦은 소스코드는 ESM을 이용해 브라우저가 번들러의 작업의 일부를 차지 하게 끔 해 속도를 빠르게 한다 (브라우저가 요청하는 대로 소스 코드를 변환하고 제공)</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="번들링-시에-esbuild를-사용하지-않는-이유">번들링 시에 Esbuild를 사용하지 않는 이유</h3>
+<blockquote>
+  <p>esbuild가 더 빠르지만, Vite가 Rollup의 유연한 플러그인 API 및 인프라를 적극적으로 채택한 것은 생태계에서의 성공에 큰 기여를 했습니다. 현재로서는 Rollup이 성능 대 유연성 트레이드오프에서 더 나은 선택이라고 믿습니다.</p>
+</blockquote>
+
+<p><a href="https://ko.vitejs.dev/guide/why.html">출처 Vite공식 홈페이지</a></p>
+
+  
+</article>
+
+
+
+  <hr class="dingbat related mb6" />
+
+
+
+
+
+
+  
+     
+
+
+  <aside class="about related mt4 mb4" role="complementary">
+    
+    
+
+<div class="author mt4">
+  
+
+  
+    
+
+
+<img
+  
+    src="https://via.placeholder.com/128x128"
+    srcset="https://via.placeholder.com/128x128 1x,https://via.placeholder.com/256x256 2x"
+    
+  
+  alt="<firstname> <lastname>"
+  class="avatar"
+  
+  width="120"
+  height="120"
+  loading="lazy"
+/>
+
+  
+
+  
+  
+  <h2  class="page-title hr-bottom">
+    About
+  </h2>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p>Open <code class="language-plaintext highlighter-rouge">_data/authors.yml</code> to edit this text.</p>
+
+
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/<username>" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/<username>" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+
+  </aside>
+
+
+  
+
+  
+  
+
+  
+    
+
+
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/haanppen/2024-01-22-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85/" class="flip-title"><span>프로젝트 초기 세팅</span></a>  <time class="faded fine" datetime="2024-01-22T21:26:24+09:00">22 Jan 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/" class="flip-title"><span>eslint와 prettier 설정</span></a>  <time class="faded fine" datetime="2024-01-22T21:02:24+09:00">22 Jan 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-01-22-CRA%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" class="flip-title"><span>CRA에 대해서</span></a>  <time class="faded fine" datetime="2024-01-22T18:30:24+09:00">22 Jan 2024</time></li>            </ul></aside>
+
+  
+
+  
+  
+
+  
+    
+
+  
+
+
+  
+<footer class="content" role="contentinfo">
+  <hr/>
+  
+    <p><small class="copyright">© 2021. All rights reserved.
+</small></p>
+  
+  
+    <nav class="legal"><small>
+    
+      
+      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
+      |
+    
+      
+      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
+      
+    
+    </small></nav>
+  
+    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
+  <hr class="sr-only"/>
+</footer>
+
+
+</main>
+
+  <hy-drawer
+  id="_drawer"
+  class=""
+  side="left"
+  threshold="10"
+  noscroll
+  
+>
+  <header id="_sidebar" class="sidebar" role="banner">
+    
+
+
+
+
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+
+    <div class="sidebar-sticky">
+  <div class="sidebar-about">
+    
+      <a class="no-hover" href="/" tabindex="-1">
+        <img src="/assets/img/logo2.png" class="avatar" alt="Gomdarachi의 기술블로그" width="120" height="120" loading="lazy" />
+      </a>
+    
+    <a class="sidebar-title" href="/"><h2 class="h1">Gomdarachi의 기술블로그</h2></a>
+    
+    
+      <p class="">
+        면접대비 및 개인 공부를 위한 카테고리
+
+      </p>
+    
+  </div>
+
+  <nav class="sidebar-nav heading" role="navigation">
+    <span class="sr-only">Navigation:</span>
+<ul>
+  
+    
+      
+      <li>
+        <a
+          id="_drawer--opened"
+          href="/haanppen/"
+          class="sidebar-nav-item "
+          
+        >
+          한편의 수학 동영상 강의 사이트 프로젝트
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/dataStruct/"
+          class="sidebar-nav-item "
+          
+        >
+          자료구조 개념 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/algorithm/"
+          class="sidebar-nav-item "
+          
+        >
+          알고리즘 개념 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/codingTest/"
+          class="sidebar-nav-item "
+          
+        >
+          코딩 테스트 문제 풀이
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/csStudy/"
+          class="sidebar-nav-item "
+          
+        >
+          기술 면접 대비
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/engineeringWriting/"
+          class="sidebar-nav-item "
+          
+        >
+          공학 작문 및 발표
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/frontendBasic/"
+          class="sidebar-nav-item "
+          
+        >
+          프론트엔드 기초 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/html/"
+          class="sidebar-nav-item "
+          
+        >
+          HTML 기초 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/css/"
+          class="sidebar-nav-item "
+          
+        >
+          CSS 기초 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/javascript/"
+          class="sidebar-nav-item "
+          
+        >
+          JAVASCRIPT 기초 정리
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="https://github.com/coririri"
+          class="sidebar-nav-item "
+          
+        >
+          깃허브 주소
+        </a>
+      </li>
+    
+  
+</ul>
+
+  </nav>
+
+  
+  <div class="sidebar-social">
+    <span class="sr-only">Social:</span>
+<ul>
+  
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://twitter.com/<username>" title="Twitter" class="no-mark-external">
+      <span class="icon-twitter"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  </li>
+
+
+    
+      
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <li>
+    <a href="https://github.com/<username>" title="GitHub" class="no-mark-external">
+      <span class="icon-github"></span>
+      <span class="sr-only">GitHub</span>
+    </a>
+  </li>
+
+
+    
+  
+</ul>
+
+  </div>
+</div>
+  </header>
+</hy-drawer>
+<hr class="sr-only" hidden />
+
+</hy-push-state>
+
+
+  <!--[if gt IE 10]><!---->
+  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
+</script>
+  <script src="/assets/js/hydejack-9.1.6.js" type="module"></script>
+  <script src="/assets/js/LEGACY-hydejack-9.1.6.js" nomodule defer></script>
+  
+
+  
+
+<!--<![endif]-->
+  <!-- <script>
+  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
+    el.addEventListener('click', function (e) {
+      if (el.pathname === window.location.pathname) {
+        e.preventDefault();
+        e.stopPropagation();
+        document.querySelector('hy-drawer').close();
+      }
+    });
+  });
+</script> -->
+
+<!--
+Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
+-->
+<script>
+  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
+    function e(e){
+      (console.error?console.error:console.log).call(console,e)
+    }
+
+    function t(e){
+      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
+    }
+
+    function r(e,t){
+      var r=e.substr(t,2);return parseInt(r,16)
+    }
+
+    function n(e,n){
+      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
+        var l=r(e,a)^c;
+        o+=String.fromCharCode(l)
+      }
+      return t(o)
+    }
+
+    var o="/cdn-cgi/l/email-protection#",
+        c=".__cf_email__",
+        a="data-cfemail",
+        l=document.createElement("div");
+
+    !function(){
+      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
+        try{
+          var c=t[r],a=c.href.indexOf(o);
+          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
+        }catch(t){
+          e(t)
+        }
+    }(),
+    function(){
+      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
+        try{
+          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
+          o.parentNode.replaceChild(i,o)
+        }catch(t){
+          e(t)
+        }
+    }()
+  });
+</script>
+
+
+
+
+
+<div hidden>
+  
+  <h2 class="sr-only">Templates (for web app):</h2>
+
+  <template id="_animation-template">
+  <div class="animation-main fixed-top">
+    <nav id="breadcrumbs" class="screen-only"><ul>
+  
+  
+</ul></nav>
+    <div class="content">
+      <div class="page"></div>
+    </div>
+  </div>
+</template>
+
+  <template id="_loading-template">
+  <div class="loading nav-btn fr">
+    <span class="sr-only">Loading…</span>
+    <span class="icon-cog"></span>
+  </div>
+</template>
+
+  <template id="_error-template">
+  <div class="page">
+    <h1 class="page-title">Error</h1>
+    
+    
+    <p class="lead">
+      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
+
+    </p>
+  </div>
+</template>
+
+  <template id="_permalink-template">
+  <a href="#" class="permalink">
+    <span class="sr-only">Permalink</span>
+    <span class="content-hash"></span>
+  </a>
+</template>
+
+</div>
+
+
+</body>
+</html>

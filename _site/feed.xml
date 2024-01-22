@@ -1,486 +1,730 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-04T23:42:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">CSS 박스 모델</title><link href="http://localhost:4000/css/2023-12-04-CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8/" rel="alternate" type="text/html" title="CSS 박스 모델" /><published>2023-12-04T22:53:24+09:00</published><updated>2023-12-04T23:42:05+09:00</updated><id>http://localhost:4000/css/CSS%20%EB%B0%95%EC%8A%A4%20%EB%AA%A8%EB%8D%B8</id><content type="html" xml:base="http://localhost:4000/css/2023-12-04-CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8/"><![CDATA[<h2 id="css-단위">CSS 단위</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko" /><updated>2024-01-23T00:36:31+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gomdarachi의 기술블로그</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><entry><title type="html">프로젝트 초기 세팅</title><link href="http://localhost:4000/haanppen/2024-01-22-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85/" rel="alternate" type="text/html" title="프로젝트 초기 세팅" /><published>2024-01-22T21:26:24+09:00</published><updated>2024-01-22T21:32:13+09:00</updated><id>http://localhost:4000/haanppen/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%B4%88%EA%B8%B0%20%EC%84%B8%ED%8C%85</id><content type="html" xml:base="http://localhost:4000/haanppen/2024-01-22-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85/"><![CDATA[<p>본 프로젝트의 초기 세팅에 관한 게시글</p>
+
+<h2 id="cra와-vite중-cra-방식-선택">CRA와 VITE중 CRA 방식 선택</h2>
+<p>프로젝트를 시작하기전에 웹 프론트엔드 js 번들링과 빌드 시스템에 대해 학습을 하였지만, 내용이 방대하다 판단하여 VITE의 장점이 많은 것을 알지만 비교적 자료가 많은 CRA를 통해 프로젝트를 진행하며 웹 번들링 및 빌드 시스템에 대해 심화적인 학습을 하기 위해 CRA방식 선택</p>
+
+<h2 id="typescript-사용-안함">TypeScript 사용 안함</h2>
+<p>첫 프로젝트에서 TS를 무작정 사용해봤는데, 타입에 관한 공부가 제대로 되어 있지 않으니 타입 문제 해결에 시간을 너무 많이 쏟고 TS도입에 대한 필요성을 제대로 느끼지 못 해, 이번 프로젝트는 JS를 사용해 프로젝트를 진행 하다 타입 관련 문제를 인식하게 되면 TS나 다른 도구들을 도입해보도록 하자</p>
+
+<h2 id="tailwind-사용">tailwind 사용</h2>
+<p>class명이 복잡해지고, css를 직관적으로 볼 수 없다는 단점이 존재하지만, css의 기초들을 공부하고 간단히 적용해보면서 학습하기에는 tailwind 만한게 없다고 판단해 도입</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="haanppen" /><summary type="html"><![CDATA[본 프로젝트의 초기 세팅에 관한 게시글]]></summary></entry><entry><title type="html">eslint와 prettier 설정</title><link href="http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/" rel="alternate" type="text/html" title="eslint와 prettier 설정" /><published>2024-01-22T21:02:24+09:00</published><updated>2024-01-23T00:36:31+09:00</updated><id>http://localhost:4000/haanppen/eslint%EC%99%80%20prettier%20%EC%84%A4%EC%A0%95</id><content type="html" xml:base="http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/"><![CDATA[<p>둘다 코드 컨벤션을 맞춰 유지보수 및 협업을 용이하게 해주기 위한 도구들이다.</p>
+
+<h2 id="eslint와-prettier의-차이점">eslint와 prettier의 차이점</h2>
+
+<p>eslint는 코드가 관습에서 벗어나면 경고 메시지를 띄워주는 용도이고, prettier는 코드가 관습에서 벗어나면 포맷팅을 통해 수정을 해주는 도구이다. (둘다 오류가 발생하면 프로젝트 build가 실패한다.)</p>
+
+<h2 id="eslint와-prettier의-충돌과-해결방법">eslint와 prettier의 충돌과 해결방법</h2>
+
+<p>둘다 코드 컨벤션을 두는 기준이 다르기 때문에, 서로 충돌하는 관습이 생길 수 있고, 이를 해결 하기 위해 prettier 홈페이지에서 해결방법을 제시한다</p>
+
 <ol>
-  <li>px 픽셀</li>
-  <li>% 상대벅 백분율
-  기준은 부모 요소의 너비를 기준.</li>
-  <li>em 요소의 글꼴 크기
-  요소에 fontSize를 지정해주지 않으면 16px이 지정 됨.<br />
-  fontSize는 상속되서 내려 감</li>
-  <li>rem 루트 요소(html)의 글꼴 크기</li>
-  <li>vw 뷰포트 가로 너비의 백분율</li>
-  <li>vh 뷰포트 세로 너비의 백분율</li>
+  <li>Prettier와 충돌하는 ESLint 규칙들을 꺼주는 eslint-config-prettier</li>
+  <li>Prettier를 ESLint 규칙으로 실행시켜주는 eslint-plugin-prettier</li>
+  <li>Prettier를 실행한 직후 ESLint를 실행시켜주는 prettier-eslint
+1번의 방법이 권장된다.</li>
 </ol>
 
-<h2 id="너비width-height">너비(width, height)</h2>
-<p>기본 값: auto (브라우저가 너비를 계산)<br />
-단위: px, em, vw 등 단위로 지정<br />
-브라우저가 계산한다는 것의 의미:</p>
+<h3 id="eslint-설치-및-설정">eslint 설치 및 설정</h3>
+
 <ol>
-  <li>인라인 요소
-콘텐츠 크기만큼만 사용하고 넓이, 높이 둘다 최대한 줄여서 사용 하려고 함.</li>
-  <li>블록 요소
-너비는 부모요소만큼 넓어지려고 하고, 높이는 콘텐츠 크기만큼 최대한 줄여서 사용 하려고 함.</li>
-</ol>
-
-<h2 id="최대-너비max-width-max-height">최대 너비(max-width, max-height)</h2>
-<p>기본 값: none (최대 너비 제한 없음)<br />
-단위: px, em, vw 등 단위로 지정</p>
-
-<h2 id="최소-너비min-width-min-height">최소 너비(min-width, min-height)</h2>
-<p>기본 값: 0 (최소 너비 제한 없음)<br />
-단위: px, em, vw 등 단위로 지정</p>
-
-<h2 id="외부-여백margin">외부 여백(margin)</h2>
-<p>기본 값: 0(외부 여백 없음)<br />
-auto: 브라우저가 여백을 계산 (가운데 정렬)<br />
-단위; px, em, vw등 단위로 지정(음수 가능)</p>
-
-<h2 id="내부-여백padding">내부 여백(padding)</h2>
-<p>요소의 크기가 커져요!!<br />
-기본 값: 0(내부 여백 없음)<br />
-단위; px, em, vw등 단위로 지정<br />
-%: 부모 요소의 가로 너비에 대한 비율로 지정</p>
-
-<h2 id="테두리border">테두리(border)</h2>
-<p>요소의 크기가 늘어남<br />
-border: 선-두께(width) 선-종류(style) 선-색상(color)</p>
-<h3 id="두께">두께</h3>
-<p>기본 값: medium</p>
-<h3 id="종류">종류</h3>
-<p>기본 값: none<br />
-자주 사용하는 값: solid(실선), dashed(파선)</p>
-<h3 id="색상">색상</h3>
-<p>기본 값: black<br />
-단위: 색상, transparent: 투명</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="css" /><summary type="html"><![CDATA[CSS 단위 px 픽셀 % 상대벅 백분율 기준은 부모 요소의 너비를 기준. em 요소의 글꼴 크기 요소에 fontSize를 지정해주지 않으면 16px이 지정 됨. fontSize는 상속되서 내려 감 rem 루트 요소(html)의 글꼴 크기 vw 뷰포트 가로 너비의 백분율 vh 뷰포트 세로 너비의 백분율]]></summary></entry><entry><title type="html">CSS 선택자와 상속 총 정리</title><link href="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/" rel="alternate" type="text/html" title="CSS 선택자와 상속 총 정리" /><published>2023-11-30T17:04:24+09:00</published><updated>2023-11-30T19:30:35+09:00</updated><id>http://localhost:4000/css/CSS%20%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80%20%EC%83%81%EC%86%8D%20%EC%B4%9D%20%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/css/2023-11-30-CSS-%EC%84%A0%ED%83%9D%EC%9E%90%EC%99%80-%EC%83%81%EC%86%8D-%EC%B4%9D-%EC%A0%95%EB%A6%AC/"><![CDATA[<h2 id="기본-문법">기본 문법</h2>
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">선택자</span> <span class="p">{</span> <span class="py">속성</span><span class="p">:</span> <span class="n">값</span><span class="p">;</span> <span class="p">}</span>
-  <span class="c">/*주석입니다!!*/</span> <span class="nt">또는</span> <span class="nt">단축키</span> <span class="nt">ctrl</span><span class="o">+/</span>
-</code></pre></div></div>
-
-<h2 id="선언-방식">선언 방식</h2>
-<ul>
-  <li>내장 방식<br />
-html파일 내부 head안에 style태그를 이용해서 선언하는 방식<br />
-그다지 개발 시 좋은 방식은 아니지만 실제 제품이 번들 될 때, 가끔 내장 될 떄 가 있다.</li>
-  <li>링크 방식
-요소 내부에 style 전역 속성에 직접 추가하는 방식
-CSS 우선순위가 지나치게 높기 때문에 유지보수에 좋지 않다.<br />
-병렬 방식으로 비교적 먼저 가져와지는 것부터 해석한다.</li>
-  <li>인라인 방식
-head 내부에 link태그를 사용해 외부 CSS 문서를 가져와서 연결하는 방식</li>
-  <li>@import 방식
-CSS의 @import 규칙으로 CSS 문서 안에서 또 다른 CSS 문서를 가져와 연결하는 방식<br />
-직렬로 연결한다고 할 수 있다.
-    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="sx">url()</span><span class="p">;</span>
-</code></pre></div>    </div>
-
-    <h2 id="선택자">선택자</h2>
-    <p>기본, 복합, 가상 클래스, 가상 요소, 속성 선택자들이 존재한다.</p>
-    <h3 id="--기본-선택자">- <strong>기본 선택자</strong></h3>
-    <ul>
-      <li>전체 선택자
-*: 모든 요소를 선택</li>
-      <li>태그 선택자
-ex) li, a 같이 태그 이름</li>
-      <li>클래스 선택자
-clsss 속성의 값앞에 .을 붙여 사용</li>
-      <li>id 선택자
-id 속성의 값앞에 #을 붙여 사용
-        <h3 id="--복합-선택자">- <strong>복합 선택자</strong></h3>
-      </li>
-      <li>일치 선택자
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">span</span><span class="nc">.orange</span> <span class="p">{</span>
-  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <p>앞 뒤를 동시에 만족하는 요소를 선택.<br />
-항상 태그 선택자를 제일 앞에 적는게 좋다.</p>
-      </li>
-      <li>자식 선택자
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">ul</span> <span class="o">&gt;</span> <span class="nc">.orange</span> <span class="p">{</span>
-  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <p>ul의 자식요소 .orange를 선택.</p>
-      </li>
-      <li>하위(후손) 선택자
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">ul</span> <span class="nc">.orange</span> <span class="p">{</span>
-  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <p>ul의 하위 요소 .orange를 선택</p>
-      </li>
-      <li>인접 형제 선택자
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.orange</span> <span class="o">+</span> <span class="nt">li</span> <span class="p">{</span>
-  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <p>.orange의 바로 다음 형제 요소인 li를 하나 선택</p>
-      </li>
-      <li>일반 형제 선택자
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.orange</span> <span class="o">~</span> <span class="nt">li</span> <span class="p">{</span>
-  <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <p>.orange의 다음 형제 요소인 li를 전부 다 선택</p>
-        <h3 id="--가상-클래스">- <strong>가상 클래스</strong></h3>
-        <p>우리가 어떠한 행동을 했을 때 동작하는 개념</p>
-      </li>
-      <li>ABC:hover
-선택자 ABC 요소에 마우스 커서가 올라가 있는 동안 선택.</li>
-      <li>ABC:active
-선택자 ABC 요소에 마우스 클릭하고 있는 동안 선택.</li>
-      <li>ABC:focus
-선택자 ABC 요소가 포커스 되면 선택.<br />
-Fouct가 될 수 있는 요소는 HTML 대화형 콘텐츠가 해당하고 한 페이지에 1개만 focus 가능<br />
-ex) INPUT, A, BUTTON, LABEL, SELECT 등..<br />
-또한 tabindex 속성에 -1을 줘 Focus가 될 수 있습니다.</li>
-      <li>ABC:first-child
-선택자 ABC가 형제 요소 중 첫째라면 선택</li>
-      <li>ABC:last-child
-선택자 ABC가 형제 요소 중 마지막이라면 선택</li>
-      <li>ABC:nth-child(n)
-선택자 ABC가 형제 요소 중 n번째라면 선택<br />
-ABC:nth-child(2n) 짝수 번째 요소들만 선택<br />
-ABC:nth-child(2n+1) 홀수 번째 요소들만 선택<br />
-ABC:nth-child(n+2) 두 번째 요소 부터 선택</li>
-      <li>ABC:not(XYZ)
-선택자 XYZ가 아닌 ABC 요소 선택
-        <h3 id="--가상-요소-선택자">- <strong>가상 요소 선택자</strong></h3>
-        <p>선택자::가상 요소 선택자 콜론이 1개여도 되지만 웹 표준에 맞지 않다.<br />
-  content 값을 비워주는 한이 있더라도 꼭 삽입 해줘야 한다.</p>
-      </li>
-      <li>ABC::before
-선택자 ABC 요소의 내부 가장 앞에 내용을 삽입
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.box</span><span class="nd">::before</span> <span class="p">{</span>
-  <span class="nl">content</span><span class="p">:</span> <span class="s1">"앞!"</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">--</span> <span class="nc">.box라는</span> <span class="nt">선택자의</span> <span class="nt">자식의</span> <span class="nt">가장</span> <span class="nt">앞에</span> <span class="nt">inline</span> <span class="nt">요소를</span> <span class="nt">삽입</span>
-</code></pre></div>        </div>
-      </li>
-      <li>ABC::after
-선택자 ABC 요소의 내부 기장 뒤에 내용을 삽입
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.box</span><span class="nd">::after</span> <span class="p">{</span>
-  <span class="nl">content</span><span class="p">:</span> <span class="s1">"뒤!"</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="nt">--</span> <span class="nc">.box라는</span> <span class="nt">선택자의</span> <span class="nt">자식의</span> <span class="nt">가장</span> <span class="nt">뒤에</span> <span class="nt">inline</span> <span class="nt">요소를</span> <span class="nt">삽입</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
-
-    <h3 id="--속성-선택자">- <strong>속성 선택자</strong></h3>
-    <ul>
-      <li>
-        <p>일반적으로 유용하지는 않음</p>
-      </li>
-      <li>
-        <p>속성 ABC가 값 XYZ인 요소 선택</p>
-      </li>
-    </ul>
-
-    <h2 id="스타일-상속">스타일 상속</h2>
-    <p>모두 글자/문자 관련 속성들</p>
-    <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">font-style</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">기울기</span>
-  <span class="nt">font-weight</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">두깨</span>
-  <span class="nt">font-size</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">크기</span>
-  <span class="nt">line-height</span><span class="o">:</span> <span class="nt">줄</span> <span class="nt">높이</span>
-  <span class="nt">font-family</span><span class="o">:</span> <span class="nt">폰트</span><span class="o">(</span><span class="nt">서체</span><span class="o">)</span>
-  <span class="nt">color</span><span class="o">:</span> <span class="nt">글자</span> <span class="nt">색상</span>
-  <span class="nt">text-align</span><span class="o">:</span> <span class="nt">정렬</span>
-  <span class="o">...</span>
-</code></pre></div>    </div>
-    <ul>
-      <li>강제 상속
-        <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.parent</span> <span class="p">{</span>
-  <span class="nl">width</span><span class="p">:</span> <span class="m">300px</span><span class="p">;</span>
-  <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="nc">.child</span> <span class="p">{</span>
-  <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
-  <span class="nl">height</span><span class="p">:</span> <span class="nb">inherit</span><span class="p">;</span> <span class="err">//</span> <span class="err">강제</span> <span class="err">상속!</span>
-<span class="p">}</span>
-</code></pre></div>        </div>
-        <h2 id="선택자-우선순위">선택자 우선순위</h2>
-        <p>같은 요소가 여러 선언의 대상이 된 경우,<br />
-어떤 선언의 CSS속성을 우선 적용할지 결정하는 방법
-        1. 점수가 높은 선언이 우선한!
-        2. 점수가 같으면, 가장 마짐가에 해석된 선언이 적용</p>
-        <h3 id="선언-방식에-따른-점수">선언 방식에 따른 점수</h3>
-      </li>
-      <li>!important 선언시 9999999999점</li>
-      <li>인라인 선언: 1000점</li>
-      <li>id 선택자: 100점</li>
-      <li>class 선택자: 10점</li>
-      <li>태그 선택자: 1점</li>
-      <li>전체 선택자: 0점</li>
-      <li>상속은 별도로 점수 계산 안함</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="css" /><summary type="html"><![CDATA[기본 문법 선택자 { 속성: 값; } /*주석입니다!!*/ 또는 단축키 ctrl+/]]></summary></entry><entry><title type="html">HTML 핵심</title><link href="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/" rel="alternate" type="text/html" title="HTML 핵심" /><published>2023-11-30T11:22:24+09:00</published><updated>2023-12-04T22:51:27+09:00</updated><id>http://localhost:4000/html/HTML%20%ED%95%B5%EC%8B%AC</id><content type="html" xml:base="http://localhost:4000/html/2023-11-30-HTML-%ED%95%B5%EC%8B%AC/"><![CDATA[<h2 id="핵심-요소들">핵심 요소들</h2>
-
-<h3 id="div-division">div (Division)</h3>
-<p>블록 요소<br />
-특별한 의미가 없는 구분을 위한 요소.</p>
-
-<h3 id="h1-heading">h1 (Heading)</h3>
-<p>블록 요소<br />
-제목을 의미하는 요소.<br />
-1~6 ‘숫자가 작을수록 더 중요한 제목을 정의</p>
-<h3 id="p-paragraph">p (Paragraph)</h3>
-<p>블록 요소<br />
-문장을 의미하는 요소.</p>
-
-<h3 id="img-image">img (Image)</h3>
-<p>인라인 요소<br />
-이미지를 삽입하는 요소.<br />
-필수속성: src, alt</p>
-
-<h3 id="ul-unordered-list">ul (Unordered List)</h3>
-<p>블록 요소<br />
-순서가 필요없는 목록의 집합을 의미</p>
-
-<h3 id="li-list-item">li (List Item)</h3>
-<p>블록 요소<br />
-목록 내 각 항목</p>
-
-<h3 id="a-anchor">a (Anchor)</h3>
-<p>인라인 요소
-다른/같은 페이지로 이동하는 하이퍼링크를 지정하는 요소.<br />
-필수 속성: href<br />
-선택 속성: target (링크 URL의 표시(브라우저 탭) 위치), ‘_blank’로 새탭에서 열기 가능</p>
-
-<h3 id="span">span</h3>
-<p>인라인 요소
-특별한 의미가 없는 구분을 위한 요소.</p>
-
-<h3 id="br-break">br (Break)</h3>
-<p>인라인 요소
-줄바꿈 요소.<br />
-html에서 그냥 줄바꿈은 반영 안 된다.</p>
-
-<h3 id="input">input</h3>
-<p>인라인 블럭 요소<br />
-필수 속성: tpye<br />
-선택 속성: value(미리 지정해둔 값), placeholder(힌트)… disabled(비 활성화)</p>
-
-<h3 id="label">label</h3>
-<p>인라인 요소<br />
-라벨 가능 요소(input)의 제목.</p>
-
-<h3 id="table">table</h3>
-<p>테이블 요소<br />
-행(tr)을 먼저 만들고, 열(td)을 만들자!</p>
-
-<h2 id="주석">주석</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!--내용--&gt;
-</code></pre></div></div>
-<p>단축키: ctrl+/</p>
-
-<h2 id="전역-속성">전역 속성</h2>
-<p>보통 요소들은 자기 자신만 쓸 수 있는 속성들이 있는데,<br />
-모든 요소에 공통적으로 사용 가능한 속성들이 존재한다.</p>
-
-<h3 id="title">title</h3>
-<p>요소의 정보나 설명을 지정.<br />
-마우스를 올리면 뜨게 해준다.</p>
-<h3 id="style">style</h3>
-<p>인라인 스타일을 적용할 수 있다.</p>
-<h3 id="class">class</h3>
-<p>요소를 지칭하는 중복가능한 이름.</p>
-<h3 id="id">id</h3>
-<p>요소를 지칭하는 고유한 이름.</p>
-<h3 id="data-이름">data-이름</h3>
-<p>요소에 데이터를 잠시 저장하는 용도.<br />
-JS에서 요소.dataset.데이터이름에 담겨있다.</p>
-
-<h2 id="전역-속성-1">전역 속성</h2>
-
-<h3 id="title-1">title</h3>
-<p>요소에 마우스를 올리면 조그마난 팁이 뜨게 헤줌</p>
-
-<h3 id="class-1">class</h3>
-<p>요소를 구분해주는 반복 사용 가능한 속성</p>
-
-<h3 id="id-1">id</h3>
-<p>요소를 구분해주는 반복 사용하면 안 되는 속성</p>
-
-<h3 id="data-이름-1">data-이름</h3>
-<p>요소에 데이터를 저장해두고 js에서 사용 가능한 속성</p>
-
-<pre><code class="language-HTML">&lt;div data-fruit-name="apple"&gt;사과&lt;/div&gt;
-&lt;div data-fruit-name="banana"&gt;바나나&lt;/div&gt;
-</code></pre>
-
-<pre><code class="language-JAVASCRIPT">const els = document.querySelectorAll('div')
-els.forEach(el =&gt; {
-  console.log(el.dataset.fruitName)
-})
-</code></pre>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="html" /><summary type="html"><![CDATA[핵심 요소들]]></summary></entry><entry><title type="html">HTML 개요</title><link href="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/" rel="alternate" type="text/html" title="HTML 개요" /><published>2023-11-29T17:59:24+09:00</published><updated>2023-11-30T11:37:45+09:00</updated><id>http://localhost:4000/html/HTML%20%EA%B0%9C%EC%9A%94</id><content type="html" xml:base="http://localhost:4000/html/2023-11-29-HTML-%EA%B0%9C%EC%9A%94/"><![CDATA[<h2 id="요소">요소</h2>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;태그&gt;</span>내용<span class="nt">&lt;태그&gt;</span> : 요소(Element) or 태그라고 부름
-</code></pre></div></div>
-
-<h2 id="빈-태그">빈 태그</h2>
-<p>HTML 1/2/3/4/5는 <태그> 이렇게 썻는데,  
-XHTML에서는 <태그></태그> 이렇게 엄격하게 제한 했지만  
-HTML6에서는 둘다 차용했다.  
-빈 태그들은 속성을 사용하는 것이 거의 사용하게 된다. br같은 예외도 있음  
-**<태그></태그>** 이렇게 작성하는 것을 권장!</태그></p>
-
-<h2 id="속성과-값">속성과 값</h2>
-<p>태그에는 속성=”값”을 줄 수 있다.<br />
-이는 요소안에 내용에 대한 것들을 설명하기 위하거나, 기능의 확장을 위해 사용<br />
-필수 속성: 요소에게 꼭 필요한 속성</p>
-
-<h2 id="글자와-상자">글자와 상자</h2>
-<p>요소가 화면에 출력되는 특성, 크게 2가지로 나뉨</p>
-<ul>
-  <li>인라인(InLine)요소: 글자를 만들기 위한 요소들.
-가로, 세로가 내용만큼 줄어드려고 한다.<br />
-글자는 가로, 세로 사이즈를 지정할 수 없다.<br />
-padding, margin 둘다 좌우만 적용된다.<br />
-자식으로 블록 요소를 넣을 수 없다.</li>
-  <li>블록(Block)요소: 상자(레이아웃)를 만들기 위한 요소들.
-가로가 부모 요소의 크기만큼 자동으로 늘어남!<br />
-가로, 세로 크기를 지정할 수 있다.<br />
-margin, padding도 다 넣을 수 있다.<br />
-자식으로 block도 포함 할 수 있다.</li>
-  <li>인라인 블록(inline-block)요소: 인라인 블럭처럼 옆으로 쌓이지만,<br />
-마진, 패딩을 상하좌우로 다 줄 수 있고, 높이와 넓이도 지정 가능하다.</li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="html" /><summary type="html"><![CDATA[요소 &lt;태그&gt;내용&lt;태그&gt; : 요소(Element) or 태그라고 부름]]></summary></entry><entry><title type="html">a 테그에 대한 정리</title><link href="http://localhost:4000/html/2023-11-29-a-%ED%85%8C%EA%B7%B8/" rel="alternate" type="text/html" title="a 테그에 대한 정리" /><published>2023-11-29T17:17:24+09:00</published><updated>2023-11-29T17:23:10+09:00</updated><id>http://localhost:4000/html/a%20%ED%85%8C%EA%B7%B8</id><content type="html" xml:base="http://localhost:4000/html/2023-11-29-a-%ED%85%8C%EA%B7%B8/"><![CDATA[<h2 id="a테그에-대한-배경">a테그에 대한 배경</h2>
-<p>페이지을 나누기 위해 폴더를 따로 파서 href로 연결하는 방식<br />
-나중에 배우게 될 라우터와는 다른 방법이다.</p>
-
-<h2 id="사용법">사용법</h2>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"example/about.html"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/example"</span><span class="nt">&gt;</span>
-// example 폴더만을 경로로 준다면 그 경로 내에 index.html파일을 찾아온다.
-</code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="html" /><summary type="html"><![CDATA[a테그에 대한 배경 페이지을 나누기 위해 폴더를 따로 파서 href로 연결하는 방식 나중에 배우게 될 라우터와는 다른 방법이다.]]></summary></entry><entry><title type="html">emmet</title><link href="http://localhost:4000/frontendbasic/2023-11-29-emmet/" rel="alternate" type="text/html" title="emmet" /><published>2023-11-29T15:53:24+09:00</published><updated>2023-11-29T17:58:38+09:00</updated><id>http://localhost:4000/frontendbasic/emmet</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-29-emmet/"><![CDATA[<h2 id="emmet이란">emmet이란?</h2>
-<p>html, css에 자동적으로 코드를 완성시켜주는 기능(플러그인)<br />
-visualStudioCode, CodePen 등 왠만한 곳은 사용 가능</p>
-
-<h2 id="emnet-사용법">emnet 사용법</h2>
-<ul>
-  <li>HTML에서
-    <ul>
-      <li>요소이름 + Tap</li>
-    </ul>
-  </li>
-  <li>CSS에서
-    <ul>
-      <li>속성 줄임말:숫자 + Tap</li>
-    </ul>
-  </li>
-  <li>공통
-    <ul>
-      <li>CSS선택자를 잘 학습해서 사용하자</li>
-      <li>{}: 삽입 내용, *: 곱하기, $: 순서대로 숫자 입력</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[emmet이란? html, css에 자동적으로 코드를 완성시켜주는 기능(플러그인) visualStudioCode, CodePen 등 왠만한 곳은 사용 가능]]></summary></entry><entry><title type="html">브라우저 스타일 초기화</title><link href="http://localhost:4000/frontendbasic/2023-11-29-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%B4%88%EA%B8%B0%ED%99%94/" rel="alternate" type="text/html" title="브라우저 스타일 초기화" /><published>2023-11-29T15:45:24+09:00</published><updated>2023-11-29T17:53:27+09:00</updated><id>http://localhost:4000/frontendbasic/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%B4%88%EA%B8%B0%ED%99%94</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-29-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%B4%88%EA%B8%B0%ED%99%94/"><![CDATA[<h2 id="초기화-하는-이유">초기화 하는 이유</h2>
-<p>브라우저마다 기본 스타일이 다르기 때문에 크로스 브라우저를 하기 위해</p>
-
-<h2 id="초기화-하는-방법">초기화 하는 방법</h2>
-<ol>
-  <li>구글에 reset.css cdn을 검색한다.</li>
-  <li>cdnjs.com 이나 jsdelivr.com 사이트를 이용한다.</li>
-  <li>reset.min.css: 파일을 필요한 것들만 압축 해 놓은 것(이용)</li>
-  <li>link테그를 이용해 스타일을 초기화 한다(모든 CSS적용보다 앞서 작성해야한다!!)</li>
-</ol>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[초기화 하는 이유 브라우저마다 기본 스타일이 다르기 때문에 크로스 브라우저를 하기 위해]]></summary></entry><entry><title type="html">CodePen 알아보기</title><link href="http://localhost:4000/frontendbasic/2023-11-29-CodePen-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/" rel="alternate" type="text/html" title="CodePen 알아보기" /><published>2023-11-29T15:37:24+09:00</published><updated>2023-11-30T11:46:27+09:00</updated><id>http://localhost:4000/frontendbasic/CodePen%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-29-CodePen-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/"><![CDATA[<p><a href="https://codepen.io">Code Pen 사이트</a><br />
-간단하게 html, css, js를 테스트 해 볼수있는 사이트</p>
-
-<h2 id="유용한-정보">유용한 정보</h2>
-<ul>
-  <li>HTML은 Body부분을 코딩하는 것</li>
-  <li>자바스크립트는 개발자 도구를 열어 확인</li>
-  <li>모든 영역은 각각 설정이 있고,  특히 js는 외부 라이브러리도 가져오기 가능</li>
-  <li>CSS설정 -&gt; CSS Base -&gt; Reset설정</li>
-  <li>외부링크로 이동하기 위해선 ctrl+클릭 해야 한다.</li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[Code Pen 사이트 간단하게 html, css, js를 테스트 해 볼수있는 사이트]]></summary></entry><entry><title type="html">상대 경로와 절대 경로</title><link href="http://localhost:4000/frontendbasic/2023-11-29-%EC%83%81%EB%8C%80-%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C/" rel="alternate" type="text/html" title="상대 경로와 절대 경로" /><published>2023-11-29T15:33:24+09:00</published><updated>2023-11-29T16:56:12+09:00</updated><id>http://localhost:4000/frontendbasic/%EC%83%81%EB%8C%80%20%EA%B2%BD%EB%A1%9C%EC%99%80%20%EC%A0%88%EB%8C%80%20%EA%B2%BD%EB%A1%9C</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-29-%EC%83%81%EB%8C%80-%EA%B2%BD%EB%A1%9C%EC%99%80-%EC%A0%88%EB%8C%80-%EA%B2%BD%EB%A1%9C/"><![CDATA[<h2 id="상대-경로">상대 경로</h2>
-<ul>
-  <li>./(본인기준), ../(자신의 위)<br />
-./는 생략이 가능하다 (./images/heropy.png) === (images/heropy.png)</li>
-</ul>
-
-<h2 id="절대-경로">절대 경로</h2>
-<ul>
-  <li>http(https) 원격, /<br />
-root(index.html 파일이 있는 경로)</li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[상대 경로 ./(본인기준), ../(자신의 위) ./는 생략이 가능하다 (./images/heropy.png) === (images/heropy.png)]]></summary></entry><entry><title type="html">HTML 문서의 구조</title><link href="http://localhost:4000/frontendbasic/2023-11-28-HTML-%EB%AC%B8%EC%84%9C%EC%9D%98-%EA%B5%AC%EC%A1%B0/" rel="alternate" type="text/html" title="HTML 문서의 구조" /><published>2023-11-28T14:22:24+09:00</published><updated>2023-11-30T12:02:25+09:00</updated><id>http://localhost:4000/frontendbasic/HTML%20%EB%AC%B8%EC%84%9C%EC%9D%98%20%EA%B5%AC%EC%A1%B0</id><content type="html" xml:base="http://localhost:4000/frontendbasic/2023-11-28-HTML-%EB%AC%B8%EC%84%9C%EC%9D%98-%EA%B5%AC%EC%A1%B0/"><![CDATA[<h2 id="전체-구조">전체 구조</h2>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;head&gt;</span>
-
-  <span class="nt">&lt;/head&gt;</span>
-  <span class="nt">&lt;body&gt;</span>
-
-  <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<h2 id="doctype에-대한-설명">DOCTYPE에 대한 설명</h2>
-<p>DTD(Document Type Definition): 문서 타입 정의</p>
-<ol>
-  <li>html1</li>
-  <li>html2</li>
-  <li>html3</li>
-  <li>html4</li>
-  <li>htmlx</li>
-  <li>html5(웹 표준)</li>
+  <li>설치: npm install eslint –save-dev</li>
+  <li>npx eslint –init를 통해 환경 세팅</li>
+  <li>환경 세팅 시 질문과 답변</li>
 </ol>
 
 <ul>
-  <li>html1~4는 사용할 일 없고, XHTML정도 유지보수 관점에서 만나볼수 있는데
-&lt;!DOCTYPE hmtl PUBLIC “-//W3C//DTD XHTML 1.0 Tras….”&gt; 이렇게 생김</li>
-  <li><strong>html테그</strong>는 브라우저에게 문서의 전체 범위를 알려주는데 사용</li>
-  <li><strong>head테그</strong>는 웹 페이지에 보이지 않는 문서의 정보를 나타내는 범위</li>
-  <li><strong>body테그</strong>는 웹 페이지에서 보여지는 문서의 구조를 나타내는 범위</li>
+  <li>How would you like to use ESLint?<br />
+To check syntax, find problems, and enforce code style</li>
+  <li>What type of modules does your project use?<br />
+CommonJS와 ES modules 중 선호하는 모듈 시스템을 선택</li>
+  <li>Which framework does your project use?<br />
+프로젝트가 사용하고 있는 프레임워크를 선택</li>
+  <li>Does your project use TypeScript?<br />
+프로젝트가 TypeScript를 사용하는지 여부를 선택</li>
+  <li>Where does your code run?<br />
+Browser와 Node 중 코드가 실행되는 환경을 선택 (우아한테크코스 미션들의 실행 환경은 Node, 중복 선택도 가능)</li>
+  <li>How would you like to define a style for your project?<br />
+Use a popular style guide</li>
+  <li>Which style guide do you want to follow?<br />
+선호하는 스타일 가이드 선택 (우아한테크코스의 자바스크립트 스타일 가이드 기준은 Airbnb)</li>
+  <li>What format do you want your config file to be in?<br />
+JavaScript, YAML, JSON 중 선호하는 설정 파일의 포맷을 선택</li>
+  <li>Would you like to install them now? (peerDependencies 설치)<br />
+Yes</li>
+  <li>Which package manager do you want to use?<br />
+npm, yarn, pnpm 중 선호하는 패키지 매니저를 선택</li>
 </ul>
 
-<h2 id="css-js를-html문서로-가져오는-방식">CSS, JS를 HTML문서로 가져오는 방식</h2>
+<ol>
+  <li>.eslintrc.js
+루트에 .eslintrc.js파일이 생성 되었다.</li>
+</ol>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">extends</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">airbnb-base</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">prettier</span><span class="dl">'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>prettier가 마지막에 가서 eslint-config-prettier가 eslint 설정을 덮어쓰이도록 한다.</p>
+
+<h3 id="prettier--eslint-config-prettier-설치-및-설정">Prettier &amp; eslint-config-prettier 설치 및 설정</h3>
+
+<ol>
+  <li>설치: npm i -D prettier eslint-config-prettier</li>
+  <li>루트 폴더 위치에 .prettierrc 파일 (prettier 설정 파일)을 생성합니다.</li>
+  <li><a href="https://prettier.io/docs/en/options.html">prettier옵션</a>을 참고해 .prettierrc 파일에 작성</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">쌍따옴표</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">홑따옴표</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"singleQuote"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">모든</span><span class="w"> </span><span class="err">구문</span><span class="w"> </span><span class="err">끝에</span><span class="w"> </span><span class="err">세미콜론</span><span class="w"> </span><span class="err">출력</span><span class="w">
+  </span><span class="nl">"semi"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">탭</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">공백으로</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w">
+  </span><span class="nl">"useTabs"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">수</span><span class="w">
+  </span><span class="nl">"tabWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">가능하면</span><span class="w"> </span><span class="err">후행</span><span class="w"> </span><span class="err">쉼표</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"trailingComma"</span><span class="p">:</span><span class="w"> </span><span class="s2">"all"</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">줄</span><span class="w"> </span><span class="err">바꿈할</span><span class="w"> </span><span class="err">길이</span><span class="w">
+  </span><span class="nl">"printWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">객체</span><span class="w"> </span><span class="err">괄호에</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">삽입</span><span class="w">
+  </span><span class="nl">"bracketSpacing"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">항상</span><span class="w"> </span><span class="err">화살표</span><span class="w"> </span><span class="err">함수의</span><span class="w"> </span><span class="err">매개</span><span class="w"> </span><span class="err">변수를</span><span class="w"> </span><span class="err">괄호로</span><span class="w"> </span><span class="err">감쌈</span><span class="w">
+  </span><span class="nl">"arrowParens"</span><span class="p">:</span><span class="w"> </span><span class="s2">"always"</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">OS에</span><span class="w"> </span><span class="err">따른</span><span class="w"> </span><span class="err">코드라인</span><span class="w"> </span><span class="err">끝</span><span class="w"> </span><span class="err">처리</span><span class="w"> </span><span class="err">방식</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"endOfLine"</span><span class="p">:</span><span class="w"> </span><span class="s2">"auto"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="vscode의-extension-설치">VSCODE의 EXTENSION 설치</h3>
+
+<ol>
+  <li>ESLint와 Prettier 확장 프로그램을 설치</li>
+  <li>VSCode의 setting.json 파일에 아래 내용을 작성합니다.</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">//</span><span class="w"> </span><span class="err">파일을</span><span class="w"> </span><span class="err">저장할</span><span class="w"> </span><span class="err">때마다</span><span class="w"> </span><span class="err">`eslint`</span><span class="w"> </span><span class="err">규칙에</span><span class="w"> </span><span class="err">따라</span><span class="w"> </span><span class="err">자동으로</span><span class="w"> </span><span class="err">코드를</span><span class="w"> </span><span class="err">수정</span><span class="w">
+</span><span class="nl">"editor.codeActionsOnSave"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"source.fixAll.eslint"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">}</span><span class="err">,</span><span class="w">
+</span><span class="err">//</span><span class="w"> </span><span class="err">`prettier`를</span><span class="w"> </span><span class="err">기본</span><span class="w"> </span><span class="err">포맷터로</span><span class="w"> </span><span class="err">지정</span><span class="w">
+</span><span class="nl">"editor.defaultFormatter"</span><span class="p">:</span><span class="w"> </span><span class="s2">"esbenp.prettier-vscode"</span><span class="err">,</span><span class="w">
+</span><span class="err">//</span><span class="w"> </span><span class="err">파일을</span><span class="w"> </span><span class="err">저장할</span><span class="w"> </span><span class="err">때마다</span><span class="w"> </span><span class="err">포매팅</span><span class="w"> </span><span class="err">실행</span><span class="w">
+</span><span class="nl">"editor.formatOnSave"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="eslint-설정-파일에-대해서-자세히-알아보자">eslint 설정 파일에 대해서 자세히 알아보자</h3>
+
+<p>https://eslint.org/docs/latest/use/configure/</p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="haanppen" /><summary type="html"><![CDATA[둘다 코드 컨벤션을 맞춰 유지보수 및 협업을 용이하게 해주기 위한 도구들이다.]]></summary></entry><entry><title type="html">CRA에 대해서</title><link href="http://localhost:4000/haanppen/2024-01-22-CRA%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" rel="alternate" type="text/html" title="CRA에 대해서" /><published>2024-01-22T18:30:24+09:00</published><updated>2024-01-22T20:52:41+09:00</updated><id>http://localhost:4000/haanppen/CRA%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C</id><content type="html" xml:base="http://localhost:4000/haanppen/2024-01-22-CRA%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/"><![CDATA[<p>webpack과 babel Bundler를 자동으로 설치해 리액트 개발 툴 환경을 설치하는 npm 명령어이다.</p>
+
+<h2 id="사용방법">사용방법</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">npx</span> <span class="nx">create</span><span class="o">-</span><span class="nx">react</span><span class="o">-</span><span class="nx">app</span> <span class="nx">my</span><span class="o">-</span><span class="nx">app</span>
+<span class="nx">cd</span> <span class="nx">my</span><span class="o">-</span><span class="nx">app</span>
+<span class="nx">npm</span> <span class="nx">start</span>
+</code></pre></div></div>
+
+<h3 id="npx와-npm의-차이">npx와 npm의 차이</h3>
+<p>npm 5.2버전부터 npx 명령어가 제공된다<br />
+npx명령어란: 모듈을 로컬환경에 설치하지 않고, 원격에 있는 것을 한번 실행 하는 것이기 때문에, CRA같이 매번 최신 버전을 설치해야하는 모듈 설치시 큰 도움이 되는 명령이다.</p>
+
+<h2 id="cra-프로젝트-폴더-구조">CRA 프로젝트 폴더 구조</h2>
+<p><img src="/haanppen/images/cra%ED%8F%B4%EB%8D%94%EA%B5%AC%EC%A1%B0.jpg" alt="Images" /></p>
 <ul>
-  <li><strong>CSS를 연결하는 방식</strong>
-    <ul>
-      <li>
-        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"./main.css"</span><span class="nt">&gt;</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
+  <li>public/index.html: 페이지 템플릿</li>
+  <li>src/index.js: js의 엔트리 지점<br />
+위 두 파일을 제외하면 파일 이름을 지우거나 바꿀 수 있다.<br />
+webpack은 src안에 JS와 CSS 파일들을 넣어둬야 빌드 해 준다.</li>
+</ul>
+
+<h2 id="script">Script</h2>
+<ul>
+  <li>npm start
+개발 서버에 프로젝트를 빌드해준다 “Open http://localhost:3000”<br />
+변경 사항도 저장 시 바로 반영 된다 (에러는 콘솔창에 뜬다)</li>
+  <li>npm test
+파일 변경과 관련 된 테스트를 수행하며, 테스터와 상호작용이 가능하다<br />
+<a href="https://create-react-app.dev/docs/running-tests/">리액트 테스트 자세히 보기</a></li>
+  <li>npm run build
+배포용 앱을 build 폴더에 빌드하고, bundle과 최적화 build를 해준다<br />
+build는 최소화 된 파일이고, hash된 파일 이름을 가진다.</li>
+</ul>
+
+<h2 id="폴리필과-지원-기능">폴리필과 지원 기능</h2>
+<ul>
+  <li>Exponentiation Operator (ES2016).</li>
+  <li>Async/await (ES2017).</li>
+  <li>Object Rest/Spread Properties (ES2018).</li>
+  <li>Dynamic import() (stage 4 proposal)</li>
+  <li>Class Fields and Static Properties (part of stage 3 proposal).</li>
+  <li>JSX, Flow and TypeScript.
+등을 지원하지만 (such as Array.from() or Symbol)과 같은 기능은 지원하지 않기에<br />
+대상 브라우저가 지원해주는지, 수동 폴리필이 있는지 확인 해야 한다.</li>
+</ul>
+
+<h2 id="eslint">esLint</h2>
+<p>CRA에는 기본 eslint가 있기 때문에, config파일에 extends를 이용해 rule을 확장 해야 한다.</p>
+<ol>
+  <li>확장 하는 방법</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"eslintConfig"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"extends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"react-app"</span><span class="p">,</span><span class="w"> </span><span class="s2">"shared-config"</span><span class="p">],</span><span class="w">
+    </span><span class="nl">"rules"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"additional-rule"</span><span class="p">:</span><span class="w"> </span><span class="s2">"warn"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<ol>
+  <li>특정 파일에만 특정 룰 추가 하기</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"eslintConfig"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"extends"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"react-app"</span><span class="p">,</span><span class="w"> </span><span class="s2">"shared-config"</span><span class="p">],</span><span class="w">
+    </span><span class="nl">"rules"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"additional-rule"</span><span class="p">:</span><span class="w"> </span><span class="s2">"warn"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="nl">"overrides"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"files"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"**/*.ts?(x)"</span><span class="p">],</span><span class="w">
+        </span><span class="nl">"rules"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"additional-typescript-only-rule"</span><span class="p">:</span><span class="w"> </span><span class="s2">"warn"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="haanppen" /><summary type="html"><![CDATA[webpack과 babel Bundler를 자동으로 설치해 리액트 개발 툴 환경을 설치하는 npm 명령어이다.]]></summary></entry><entry><title type="html">VITE에 대해서</title><link href="http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" rel="alternate" type="text/html" title="VITE에 대해서" /><published>2024-01-22T17:17:24+09:00</published><updated>2024-01-22T18:27:07+09:00</updated><id>http://localhost:4000/haanppen/VITE%EC%97%90%20%EB%8C%80%ED%95%B4%EC%84%9C</id><content type="html" xml:base="http://localhost:4000/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/"><![CDATA[<p>Vite는 모던 웹 프로젝트 빌드 도구이다.</p>
+
+<h2 id="추가-학습">추가 학습!</h2>
+<ul>
+  <li>빌드란?
+<a href="https://en.wikipedia.org/wiki/Software_build">Wikipedia 정의</a> 을 참고하면
+    <blockquote>
+      <p>빌드란 소스 코드 파일을 독립적인 소프트웨어 아티팩트(artifact)로 변환하는 과정이거나 그 결과물을 나타냅니다. 이 아티팩트는 컴퓨터에서 실행될 수 있는 형태로 만들어집니다.</p>
+    </blockquote>
   </li>
-  <li><strong>JS를 연결하는 방식</strong>
-    <ul>
-      <li>
-        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"./main.js"</span> <span class="nt">/&gt;</span>
-<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">./main.js</span><span class="dl">"</span> <span class="nx">defer</span><span class="o">/&gt;</span>
-<span class="o">&lt;!--</span> <span class="nx">defer는</span> <span class="nx">자바스크립트가</span> <span class="nx">body보다</span> <span class="nx">빨리</span> <span class="nx">읽혀</span> <span class="nx">요소들을</span> <span class="nx">캐치하지</span> <span class="nx">못하는</span> <span class="nx">현상을</span> <span class="nx">해결하는데</span> <span class="nx">사용</span> <span class="o">--&gt;</span>
-</code></pre></div>        </div>
-      </li>
-    </ul>
+  <li>웹 번들이란?</li>
+</ul>
+
+<p><a href="https://developer.chrome.com/docs/web-platform/web-bundles?hl=ko">Chrome for Developers</a> 을 참고하면</p>
+<blockquote>
+  <p>웹 번들은 하나 이상의 HTTP 리소스를 단일 파일에 캡슐화하기 위한 파일 형식입니다</p>
+</blockquote>
+
+<ul>
+  <li>나눠서 리소스를 받아 로딩하던 웹 파일들을 하나의 .wbn파일로 묶어주는 것이다</li>
+</ul>
+
+<h3 id="빌드의-장점">빌드의 장점</h3>
+<ol>
+  <li>wdn파일만 있다면 오프라인에서도 웹 어플리케이션을 실행할 수 있다.</li>
+  <li>웹 서버에서 최초로 파일을 받아오면 더 이상 로딩을 위해 네트워크 자원을 낭비할 필요가 없다.</li>
+</ol>
+
+<h3 id="빌드의-단점">빌드의 단점</h3>
+<ol>
+  <li>초기 로딩 속도가 커진다.</li>
+</ol>
+
+<h3 id="웹-번들이-나오게-된-계기">웹 번들이 나오게 된 계기</h3>
+<ol>
+  <li>여러 js파일들을 사용하다보니, 전역 변수명이 겹치는 문제가 발생하였습니다</li>
+  <li>불러와야하는 모듈의 순서가 있다 (의존의 문제가 있기 때문)</li>
+</ol>
+
+<h2 id="vite에-대해서">VITE에 대해서</h2>
+<p>ES6에서 도입된 ESM(ES Modules)를 대부분 브라우저에서 지원하는 점 및 네이티브 언어로 작성된 Javascript 도구 등을 활용해 서버 구동 시간을 단축 시켜주는 웹 번들링 도구입니다.</p>
+<ul>
+  <li>Webpack, Rollup 그리고 Parcel VS VITE
+    <ol>
+      <li>브라우저에서 지원하는 ESM을 사용하지 않고, 미리 JS파일들을 번들링 해, 클라이언트에게 실행 가능한 파일을 전달 하지만, VITE는 배포 시에만 번들링을 수행하고, 이후에는 ESM을 사용해 서버 구동 시간을 줄인다.</li>
+      <li>Go언어로 작성된 Esbuild를 사용해 Parcel과 Webpack보다 10-100배 빠른 번들링을 수행한다.</li>
+    </ol>
+  </li>
+  <li>Dependencies vs Source code
+    <ol>
+      <li>Dependencies
+개발 시 내용이 바뀌지 않을 일반적인 js모듈들을 esBuild를 사용해 빠르게 번들링 한다</li>
+      <li>Source code
+JSX, CSS 또는 Vue/Svelte 컴포넌트와 같이 컴파일링이 필요하고, 수정 또한 매우 잦은 소스코드는 ESM을 이용해 브라우저가 번들러의 작업의 일부를 차지 하게 끔 해 속도를 빠르게 한다 (브라우저가 요청하는 대로 소스 코드를 변환하고 제공)</li>
+    </ol>
   </li>
 </ul>
 
-<h2 id="정보를-의미하는-테그들">정보를 의미하는 테그들</h2>
+<h3 id="번들링-시에-esbuild를-사용하지-않는-이유">번들링 시에 Esbuild를 사용하지 않는 이유</h3>
+<blockquote>
+  <p>esbuild가 더 빠르지만, Vite가 Rollup의 유연한 플러그인 API 및 인프라를 적극적으로 채택한 것은 생태계에서의 성공에 큰 기여를 했습니다. 현재로서는 Rollup이 성능 대 유연성 트레이드오프에서 더 나은 선택이라고 믿습니다.</p>
+</blockquote>
+
+<p><a href="https://ko.vitejs.dev/guide/why.html">출처 Vite공식 홈페이지</a></p>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="haanppen" /><summary type="html"><![CDATA[Vite는 모던 웹 프로젝트 빌드 도구이다.]]></summary></entry><entry><title type="html">배열과 메서드</title><link href="http://localhost:4000/javascript/2024-01-16-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EC%84%9C%EB%93%9C/" rel="alternate" type="text/html" title="배열과 메서드" /><published>2024-01-16T17:51:24+09:00</published><updated>2024-01-18T19:51:50+09:00</updated><id>http://localhost:4000/javascript/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EB%A9%94%EC%84%9C%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/javascript/2024-01-16-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%A9%94%EC%84%9C%EB%93%9C/"><![CDATA[<h2 id="요소-추가-제거-메서드">요소 추가, 제거 메서드</h2>
+<ol>
+  <li>arr.push(…items) – 맨 끝에 요소 추가</li>
+  <li>arr.pop() – 맨 끝 요소 제거</li>
+  <li>arr.shift() – 맨 앞 요소 제거</li>
+  <li>arr.unshift(…items) – 맨 앞에 요소 추가</li>
+  <li>splice
+배열에서 요소를 하나만 지우고 싶다면 어떻게 할까?<br />
+배열 역시 객체형이르모 delete를 사용 할 수 있다.=&gt;배열의 길이가 짧아지지는 않는다.<br />
+arr.splice(index[, deleteCount, elem1, …, elemN])
+    <ul>
+      <li>삭제</li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">I</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">study</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">JavaScript</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="nx">arr</span><span class="p">.</span><span class="nf">splice</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span> <span class="c1">// 인덱스 1부터 요소 한 개를 제거</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">arr</span> <span class="p">);</span> <span class="c1">// ["I", "JavaScript"]</span>
+</code></pre></div></div>
 <ul>
-  <li>title: 웹의 제목을 정함</li>
-  <li>link: CSS, Icon과 같은 외부 파일을 가져올떄 사용
+  <li>삭제 후 대체</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">I</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">study</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">JavaScript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">right</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">now</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="c1">// 처음(0) 세 개(3)의 요소를 지우고, 이 자리를 다른 요소로 대체합니다.</span>
+<span class="nx">arr</span><span class="p">.</span><span class="nf">splice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Let's</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">dance</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">arr</span> <span class="p">)</span> <span class="c1">// now ["Let's", "dance", "right", "now"]</span>
+</code></pre></div></div>
+<ul>
+  <li>반환 값</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">I</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">study</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">JavaScript</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">right</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">now</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="c1">// 처음 두 개의 요소를 삭제함</span>
+<span class="kd">let</span> <span class="nx">removed</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nf">splice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">removed</span> <span class="p">);</span> <span class="c1">// "I", "study" &lt;-- 삭제된 요소로 구성된 배열</span>
+</code></pre></div></div>
+<ul>
+  <li>요소 가운에 집어 넣기</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">I</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">study</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">JavaScript</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="c1">// 인덱스 2부터</span>
+<span class="c1">// 0개의 요소를 삭제합니다.</span>
+<span class="c1">// 그 후, "complex"와 "language"를 추가합니다.</span>
+<span class="nx">arr</span><span class="p">.</span><span class="nf">splice</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="dl">"</span><span class="s2">complex</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">language</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">arr</span> <span class="p">);</span> <span class="c1">// "I", "study", "complex", "language", "JavaScript"</span>
+</code></pre></div></div>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="javascript" /><summary type="html"><![CDATA[요소 추가, 제거 메서드 arr.push(…items) – 맨 끝에 요소 추가 arr.pop() – 맨 끝 요소 제거 arr.shift() – 맨 앞 요소 제거 arr.unshift(…items) – 맨 앞에 요소 추가 splice 배열에서 요소를 하나만 지우고 싶다면 어떻게 할까? 배열 역시 객체형이르모 delete를 사용 할 수 있다.=&gt;배열의 길이가 짧아지지는 않는다. arr.splice(index[, deleteCount, elem1, …, elemN]) 삭제]]></summary></entry><entry><title type="html">백트래킹 알고리즘</title><link href="http://localhost:4000/algorithm/2024-01-16-%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" rel="alternate" type="text/html" title="백트래킹 알고리즘" /><published>2024-01-16T00:18:24+09:00</published><updated>2024-01-20T02:33:13+09:00</updated><id>http://localhost:4000/algorithm/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98</id><content type="html" xml:base="http://localhost:4000/algorithm/2024-01-16-%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"><![CDATA[<p>그래프/트리 모든 원소를 완전 탐색하기 위한 목적으로 사용</p>
+<ol>
+  <li>DFS는 일반적으로 완전 탐색 목적으로, 재귀 함수를 이용해 구현한다</li>
+  <li>백트래킹도 재귀 함수를 이용해 구현하는 것이 일반적이지만, 단순히 완전 탐색하는 것이 아니라 조건에 따라서 유망한 노드로 이동한다</li>
+</ol>
+
+<h2 id="재귀함수의-일반적인-코드">재귀함수의 일반적인 코드</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">recursive</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="nx">종료</span> <span class="nx">조건을</span> <span class="nx">만족한다면</span> <span class="p">{</span>
+    <span class="nx">처리</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">for</span> <span class="nx">자식</span> <span class="nx">노드를</span> <span class="nx">하나씩</span> <span class="nx">확인하며</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="nx">임의의</span> <span class="nx">조건을</span> <span class="nx">만족한다면</span> <span class="p">{</span>
+      <span class="nx">자식</span> <span class="nx">노드</span> <span class="nx">방문</span> <span class="nx">처리</span><span class="p">;</span>
+      <span class="nx">재귀</span> <span class="nx">함수</span> <span class="nx">호출</span><span class="p">;</span>
+      <span class="nx">자식</span> <span class="nx">노드</span> <span class="nx">방문</span> <span class="nx">처리</span> <span class="nx">해제</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// N-Queen문제 예시 코드</span>
+<span class="kd">let</span> <span class="nx">n</span> <span class="o">=</span> <span class="mi">8</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">queens</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="kd">function</span> <span class="nf">possible</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">for </span><span class="p">(</span><span class="kd">let</span> <span class="p">[</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">]</span> <span class="k">of</span> <span class="nx">queens</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if </span><span class="p">(</span><span class="nx">a</span> <span class="o">==</span> <span class="nx">x</span> <span class="o">||</span> <span class="nx">b</span> <span class="o">==</span> <span class="nx">y</span><span class="p">)</span> <span class="k">return</span> <span class="kc">false</span>
+    <span class="k">if </span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="nx">a</span> <span class="o">-</span> <span class="nx">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">Math</span><span class="p">.</span><span class="nf">abs</span><span class="p">(</span><span class="nx">b</span> <span class="o">-</span> <span class="nx">y</span><span class="p">))</span> <span class="k">return</span> <span class="kc">false</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="kc">true</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">cnt</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="kd">function</span> <span class="nf">dfs</span><span class="p">(</span><span class="nx">row</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">row</span> <span class="o">==</span> <span class="nx">n</span><span class="p">)</span> <span class="nx">cnt</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">n</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nf">possible</span><span class="p">(</span><span class="nx">row</span><span class="p">,</span> <span class="nx">i</span><span class="p">))</span> <span class="k">continue</span><span class="p">;</span>
+    <span class="nx">queens</span><span class="p">.</span><span class="nf">push</span><span class="p">([</span><span class="nx">row</span><span class="p">,</span> <span class="nx">i</span><span class="p">]);</span>
+    <span class="nf">dfs</span><span class="p">(</span><span class="nx">row</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nx">queens</span><span class="p">.</span><span class="nf">pop</span><span class="p">()</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+<span class="nf">dfs</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">cnt</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="백준-대표적인-문제들">백준 대표적인 문제들</h2>
+<ul>
+  <li>15649번: 백트래킹 코드 형식만 알면 풀만함</li>
+  <li>10974번: 윗 문제와 동일!</li>
+  <li>7490반: 골드 난이도인지는 잘 모르겠지만, eval(), console.log()로 띄어쓰기, 완전탐색형(백트래킹), [+,-,’ ‘]배열 사용과 아스키코드 순서등 많은 개념들을 알아야 풀수 있긴 함..</li>
+  <li>10971번: 사실 완전 탐색 느낌이다 (백트래킹보다는) 그래서 햇갈렸고 순회한다는 개념자체를 암기해주는게 좋을듯(어느 노드에서든 출발해도 되고, 줄기를 만드는 과정에서 재끼지 말고, 다 만들고 검사할때도 재끼구나.. 사실 완탐임)</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="algorithm" /><summary type="html"><![CDATA[그래프/트리 모든 원소를 완전 탐색하기 위한 목적으로 사용 DFS는 일반적으로 완전 탐색 목적으로, 재귀 함수를 이용해 구현한다 백트래킹도 재귀 함수를 이용해 구현하는 것이 일반적이지만, 단순히 완전 탐색하는 것이 아니라 조건에 따라서 유망한 노드로 이동한다]]></summary></entry><entry><title type="html">문자열</title><link href="http://localhost:4000/javascript/2024-01-11-%EB%AC%B8%EC%9E%90%EC%97%B4/" rel="alternate" type="text/html" title="문자열" /><published>2024-01-11T19:41:24+09:00</published><updated>2024-01-11T20:02:45+09:00</updated><id>http://localhost:4000/javascript/%EB%AC%B8%EC%9E%90%EC%97%B4</id><content type="html" xml:base="http://localhost:4000/javascript/2024-01-11-%EB%AC%B8%EC%9E%90%EC%97%B4/"><![CDATA[<p>자바스크립트엔 글자 하나만 저장할 수 있는 별도의 자료형이 없습니다. 텍스트 형식의 데이터는 길이에 상관없이 문자열 형태로 저장됩니다.<br />
+자바스크립트에서 문자열은 페이지 인코딩 방식과 상관없이 항상 UTF-16 형식을 따릅니다.</p>
+
+<h2 id="문자열의-불변성">문자열의 불변성</h2>
+<p>문자열은 수정할 수 없습니다. 따라서 문자열의 중간 글자 하나를 바꾸려고 하면 에러가 발생합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Hi</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="nx">str</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">h</span><span class="dl">'</span><span class="p">;</span> <span class="c1">// Error: Cannot assign to read only property '0' of string 'Hi'</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">str</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">);</span> <span class="c1">// 동작하지 않습니다.</span>
+
+<span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Hi</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="nx">str</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">h</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">str</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span> <span class="c1">// 문자열 전체를 교체함</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">str</span> <span class="p">);</span> <span class="c1">// hi</span>
+</code></pre></div></div>
+
+<h2 id="문자열-함수들">문자열 함수들</h2>
+<ol>
+  <li>str.indexOf
+첫 번째 방법은 str.indexOf(substr, pos) 메서드를 이용하는 것입니다.<br />
+str.indexOf(“Widget”)은 0을 반환하는데, if문에선 0을 false로 간주하므로 alert 창이 뜨지 않습니다.
+아래처럼 해야 한다</li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Widget with id</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="k">if </span><span class="p">(</span><span class="nx">str</span><span class="p">.</span><span class="nf">indexOf</span><span class="p">(</span><span class="dl">"</span><span class="s2">Widget</span><span class="dl">"</span><span class="p">)</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nf">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">찾았다!</span><span class="dl">"</span><span class="p">);</span> <span class="c1">// 의도한 대로 동작합니다.</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<ol>
+  <li>
+    <p>str.lastIndexOf(substr, position)
+indexOf와 유사한 기능을 하는 메서드입니다. 문자열 끝에서부터 부분 문자열을 찾는다는 점만 다릅니다.</p>
+  </li>
+  <li>
+    <p>str.includes(substr, pos)
+str에 부분 문자열 substr이 있는지에 따라 true나 false를 반환합니다.</p>
+  </li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">alert</span><span class="p">(</span> <span class="dl">"</span><span class="s2">Widget with id</span><span class="dl">"</span><span class="p">.</span><span class="nf">includes</span><span class="p">(</span><span class="dl">"</span><span class="s2">Widget</span><span class="dl">"</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// true</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="dl">"</span><span class="s2">Hello</span><span class="dl">"</span><span class="p">.</span><span class="nf">includes</span><span class="p">(</span><span class="dl">"</span><span class="s2">Bye</span><span class="dl">"</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// false</span>
+</code></pre></div></div>
+
+<ol>
+  <li>str.slice(start [, end])
+문자열의 start부터 end까지(end는 미포함)를 반환합니다.</li>
+  <li>str.substring(start [, end])
+substring은 slice와 아주 유사하지만 start가 end보다 커도 괜찮다는 데 차이가 있습니다.<br />
+substring은 음수 인수를 허용하지 않습니다. 음수는 0으로 처리됩니다.</li>
+  <li>str.substr(start [, length])
+start에서부터 시작해 length 개의 글자를 반환합니다.<br />
+거의 모든 곳에서 이 메서드가 동작하긴 하지만 브라우저 이외의 호스트 환경에서는 제대로 동작하지 않을 수 있습니다.</li>
+</ol>
+
+<ul>
+  <li>세 메서드 중 slice만 외워놓고 사용해도 충분할 것 같습니다.</li>
+</ul>
+
+<ol>
+  <li>str.codePointAt(pos)
+pos에 위치한 글자의 UTF-16코드를 반환합니다.</li>
+  <li>String.fromCodePoint(code)
+숫자 형식의 code에 대응하는 글자를 만들어줍니다.</li>
+  <li>str.localeCompare(str2)
+ECMA-402에서 정의한 규칙에 따라 str이 str2보다 작은지, 같은지, 큰지를 나타내주는 정수가 반환됩니다.</li>
+</ol>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="javascript" /><summary type="html"><![CDATA[자바스크립트엔 글자 하나만 저장할 수 있는 별도의 자료형이 없습니다. 텍스트 형식의 데이터는 길이에 상관없이 문자열 형태로 저장됩니다. 자바스크립트에서 문자열은 페이지 인코딩 방식과 상관없이 항상 UTF-16 형식을 따릅니다.]]></summary></entry><entry><title type="html">숫자형</title><link href="http://localhost:4000/javascript/2024-01-11-%EC%88%AB%EC%9E%90%ED%98%95/" rel="alternate" type="text/html" title="숫자형" /><published>2024-01-11T18:30:24+09:00</published><updated>2024-01-11T19:41:17+09:00</updated><id>http://localhost:4000/javascript/%EC%88%AB%EC%9E%90%ED%98%95</id><content type="html" xml:base="http://localhost:4000/javascript/2024-01-11-%EC%88%AB%EC%9E%90%ED%98%95/"><![CDATA[<p>모던 js는 숫자를 나타내는 두 가지 자료형을 지원한다.</p>
+<ol>
+  <li>일반적인 숫자는 ‘배정밀도 부동소수점 숫자(double precision floating point number)’로 알려진 64비트 형식의 IEEE-754에 저장됩니다</li>
+  <li>일반적인 숫자는 253이상이거나 -253이하일 수 없다는 제약 때문에 BigInt라는 새로운 자료형이 만들어졌습니다</li>
+</ol>
+
+<h2 id="숫자의-표현-방법들">숫자의 표현 방법들</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">billion</span> <span class="o">=</span> <span class="mi">1000000000</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">billion</span> <span class="o">=</span> <span class="mi">1</span><span class="nx">e9</span><span class="p">;</span>  <span class="c1">// 10억, 1과 9개의 0</span>
+<span class="c1">// 1e3 === 1 * 1000</span>
+<span class="c1">// 1.23e6 === 1.23 * 1000000</span>
+
+<span class="kd">let</span> <span class="nx">ms</span> <span class="o">=</span> <span class="mf">0.000001</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">ms</span> <span class="o">=</span> <span class="mi">1</span><span class="nx">e</span><span class="o">-</span><span class="mi">6</span><span class="p">;</span> <span class="c1">// 1에서 왼쪽으로 6번 소수점 이동</span>
+
+<span class="c1">// 1e-3 === 1 / 1000 // 0.001</span>
+<span class="c1">// 1.23e-6 === 1.23 / 1000000 // 0.00000123</span>
+
+<span class="c1">// 16진수, 2진수, 8진수</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="mh">0xff</span> <span class="p">);</span> <span class="c1">// 255</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="mh">0xFF</span> <span class="p">);</span> <span class="c1">// 255 (대·소문자를 가리지 않으므로 둘 다 같은 값을 나타냅니다.)</span>
+
+<span class="kd">let</span> <span class="nx">a</span> <span class="o">=</span> <span class="mb">0b11111111</span><span class="p">;</span> <span class="c1">// 255의 2진수</span>
+<span class="kd">let</span> <span class="nx">b</span> <span class="o">=</span> <span class="mo">0o377</span><span class="p">;</span> <span class="c1">// 255의 8진수</span>
+
+<span class="c1">// 자바스크립트에서 지원하는 진법은 3개입니다. 이 외의 진법을 사용하려면 함수 parseInt를 사용</span>
+
+<span class="c1">// toString(base)</span>
+
+<span class="kd">let</span> <span class="nx">num</span> <span class="o">=</span> <span class="mi">22</span><span class="p">;</span>
+<span class="nf">alert</span><span class="p">(</span><span class="nx">num</span><span class="p">.</span><span class="nf">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">))</span> <span class="c1">//ff</span>
+<span class="nf">alert</span><span class="p">(</span><span class="nx">num</span><span class="p">.</span><span class="nf">toString</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="c1">//11111111</span>
+
+<span class="c1">// base=16 - 16진수 색, 문자 인코딩 등을 표현할 때 사용합니다</span>
+<span class="c1">// baase=2 - 비트 연산 디버깅에 주로 쓰입니다.</span>
+<span class="c1">// base=36 - 36 베이스는 url을 줄이는 것과 같이 숫자로 된 긴 식별자를 짧게 줄일 때 유용합니다.</span>
+</code></pre></div></div>
+<ul>
+  <li>점 두개와 메서드 호출</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">123456</span><span class="p">..</span><span class="nf">toString</span><span class="p">(</span><span class="mi">36</span><span class="p">)</span>
+<span class="c1">// 숫자를 대상으로 메서드 toString을 직접 호출하고 싶다면 숫자 다음에 점 두 개 ..를 붙여야 합니다.</span>
+<span class="c1">// 점을 한 개만 사용하면, 첫 번째 점 이후는 소수부로 인식되어 에러</span>
+<span class="c1">// (123456).toString(36)도 가능합니다.</span>
+</code></pre></div></div>
+
+<h2 id="유의-해야할-만한-내용들">유의 해야할 만한 내용들</h2>
+<ul>
+  <li>어림수 구하기
+    <ol>
+      <li>Math.floor 
+소수점 첫째 자리에서 내림(버림). 3.1은 3, -1.1은 -2가 됩니다.</li>
+      <li>Math.ceil
+소수점 첫째 자리에서 올림. 3.1은 4, -1.1은 -1이 됩니다.</li>
+      <li>Math.round
+소수점 첫째 자리에서 반올림. 3.1은 3, 3.6은 4, -1.1은 -1이 됩니다.</li>
+      <li>Math.trunc (Internet Explorer에서는 지원하지 않음)
+소수부를 무시. 3.1은 3이 되고 -1.1은 -1이 됩니다.</li>
+    </ol>
+  </li>
+  <li>n-th번째 수를 기준으로 어림수를 구하기
+    <ol>
+      <li>곱하기와 나누기
+소수점 두 번째 자리 숫자까지만 남기고 싶은 경우, 숫자에 100 또는 100보다 큰 10의 거듭제곱 수를 곱한 후, 원하는 어림수 내장 함수를 호출하고 처음 곱한 수를 다시 나누면 됩니다.</li>
+    </ol>
+  </li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">num</span> <span class="o">=</span> <span class="mf">1.23456</span><span class="p">;</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="nb">Math</span><span class="p">.</span><span class="nf">floor</span><span class="p">(</span><span class="nx">num</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">/</span> <span class="mi">100</span> <span class="p">);</span> <span class="c1">// 1.23456 -&gt; 123.456 -&gt; 123 -&gt; 1.23</span>
+</code></pre></div></div>
+
+<ul>
+  <li>부동 소수점의 부정확성
+IEEE-754에선 가능한 가장 가까운 숫자로 반올림하는 방법을 사용해 무한소수를 표기합니다<br />
+‘작은 정밀도 손실’을 우리가 볼 수는 없지만 실제로 손실은 발생합니다.</li>
+  <li>해결 방안</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// toFixed사용하기</span>
+<span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">;</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="o">+</span><span class="nx">sum</span><span class="p">.</span><span class="nf">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 0.30</span>
+
+<span class="c1">// 숫자에 임시로 곱하고 나눠주기</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="p">(</span><span class="mf">0.1</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">+</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span> <span class="o">/</span> <span class="mi">10</span> <span class="p">);</span> <span class="c1">// 0.3</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="p">(</span><span class="mf">0.28</span> <span class="o">*</span> <span class="mi">100</span> <span class="o">+</span> <span class="mf">0.14</span> <span class="o">*</span> <span class="mi">100</span><span class="p">)</span> <span class="o">/</span> <span class="mi">100</span><span class="p">);</span> <span class="c1">// 0.4200000000000001</span>
+</code></pre></div></div>
+
+<ul>
+  <li>NaN과 Infinity
+    <ol>
+      <li>isNaN(value) – 인수를 숫자로 변환한 다음 NaN인지 테스트함
+if(number === NaN)로 대체하면 안되나??</li>
+    </ol>
+  </li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//  NaN은 NaN 자기 자신을 포함하여 그 어떤 값과도 같지 않다는 점에서 독특합니다.</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="kc">NaN</span> <span class="o">===</span> <span class="kc">NaN</span> <span class="p">);</span> <span class="c1">// false</span>
+</code></pre></div></div>
+<ol>
+  <li>isFinite(value) – 인수를 숫자로 변환하고 변환한 숫자가 NaN/Infinity/-Infinity가 아닌 일반 숫자인 경우 true를 반환함</li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">alert</span><span class="p">(</span> <span class="nf">isFinite</span><span class="p">(</span><span class="dl">"</span><span class="s2">15</span><span class="dl">"</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// true</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="nf">isFinite</span><span class="p">(</span><span class="dl">"</span><span class="s2">str</span><span class="dl">"</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// false, NaN이기 때문입니다.</span>
+<span class="nf">alert</span><span class="p">(</span> <span class="nf">isFinite</span><span class="p">(</span><span class="kc">Infinity</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// false, Infinity이기 때문입니다.</span>
+
+<span class="c1">// 빈 문자열이나 공백만 있는 문자열은 모든 숫자 관련 내장 함수에서 0으로 취급된다는 점에 유의</span>
+</code></pre></div></div>
+
+<h2 id="더-정확한-비교">더 정확한 비교</h2>
+<p>Object.is는 ===처럼 값을 비교할 때 사용되는 특별한 내장 메서드인데,<br />
+아래와 같은 두 가지 에지 케이스에선 ===보다 좀 더 신뢰할만한 결과를 보여줍니다.</p>
+<ol>
+  <li>NaN을 대상으로 비교할 때: Object.is(NaN, NaN) === true임.</li>
+  <li>0과 -0이 다르게 취급되어야 할 때: Object.is(0, -0) === false임</li>
+</ol>
+
+<h2 id="parseint와-parsefloat">parseInt와 parseFloat</h2>
+<p>단항 덧셈 연산자 + 또는 Number()를 사용하여 숫자형으로 변형할 때 적용되는 규칙은 꽤 엄격합니다<br />
+피연산자가 숫자가 아니면 형 변환이 실패합니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nf">alert</span><span class="p">(</span> <span class="o">+</span><span class="dl">"</span><span class="s2">100px</span><span class="dl">"</span> <span class="p">);</span> <span class="c1">// NaN</span>
+</code></pre></div></div>
+<p>그런데 실무에선 CSS 등에서 ‘100px’, ‘12pt’와 같이 숫자와 단위를 함께 쓰는 경우가 흔합니다.<br />
+내장 함수 parseInt와 parseFloat는 이런 경우를 위해 만들어졌습니다.<br />
+두 함수는 불가능할 때까지 문자열에서 숫자를 ‘읽습니다’.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nf">alert</span><span class="p">(</span> <span class="nf">parseInt</span><span class="p">(</span><span class="dl">'</span><span class="s1">100px</span><span class="dl">'</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 100</span>
+  <span class="nf">alert</span><span class="p">(</span> <span class="nf">parseFloat</span><span class="p">(</span><span class="dl">'</span><span class="s1">12.5em</span><span class="dl">'</span><span class="p">)</span> <span class="p">);</span> <span class="c1">// 12.5</span>
+</code></pre></div></div>
+
+<h2 id="기타-수학-함수">기타 수학 함수</h2>
+<ol>
+  <li>Math.random()
+0과 1 사이의 난수를 반환합니다(1은 제외).</li>
+  <li>Math.max(a, b, c…) / Math.min(a, b, c…)
+인수 중 최대/최솟값을 반환합니다.</li>
+  <li>Math.pow(n, power)
+n을 power번 거듭제곱한 값을 반환합니다.</li>
+</ol>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="javascript" /><summary type="html"><![CDATA[모던 js는 숫자를 나타내는 두 가지 자료형을 지원한다. 일반적인 숫자는 ‘배정밀도 부동소수점 숫자(double precision floating point number)’로 알려진 64비트 형식의 IEEE-754에 저장됩니다 일반적인 숫자는 253이상이거나 -253이하일 수 없다는 제약 때문에 BigInt라는 새로운 자료형이 만들어졌습니다]]></summary></entry><entry><title type="html">원시값의 메서드</title><link href="http://localhost:4000/javascript/2024-01-11-%EC%9B%90%EC%8B%9C%EA%B0%92%EC%9D%98-%EB%A9%94%EC%84%9C%EB%93%9C/" rel="alternate" type="text/html" title="원시값의 메서드" /><published>2024-01-11T17:51:24+09:00</published><updated>2024-01-11T18:30:36+09:00</updated><id>http://localhost:4000/javascript/%EC%9B%90%EC%8B%9C%EA%B0%92%EC%9D%98%20%EB%A9%94%EC%84%9C%EB%93%9C</id><content type="html" xml:base="http://localhost:4000/javascript/2024-01-11-%EC%9B%90%EC%8B%9C%EA%B0%92%EC%9D%98-%EB%A9%94%EC%84%9C%EB%93%9C/"><![CDATA[<p>자바스크립트는 원시 값(문자열, 숫자 등)을 마치 객체처럼 다룰 수 있게 해줍니다.<br />
+원시값에도 객체에서처럼 메서드를 호출할 수 있죠</p>
+
+<h2 id="원시값과-객체">원시값과 객체</h2>
+<ul>
+  <li>원시값
+문자(String), 숫자(Number), bigint, 불린(boolean), 심볼(symbol), null, undefined</li>
+  <li>객체 
+프로퍼티에 값과 함수를 넣을 수 있음, 함수도 객체이다<br />
+객체는 내부 구조를 유지하기 위해 추가 자원을 사용하기 때문에 무겁다.</li>
+</ul>
+
+<h2 id="원시값을-객체처럼-사용하기">원시값을 객체처럼 사용하기</h2>
+<p>문자열이나 숫자와 같은 원시값을 다룰 일이 많은데, 메서드를 사용하면 작업을 수월하게 할 수 있을 꺼 같은데..<br />
+원시값은 가능한 한 빠르고 가벼워야 하는데..</p>
+<ul>
+  <li>해결 책
+    <ol>
+      <li>원시값은 그대로 남겨둬 단일 값 형태를 유지한다.</li>
+      <li>문자열, 숫자, 불린, 심볼의 메서드와 프로퍼티에 접근할 수 있도록 언어 차원에서 허용합니다.</li>
+      <li>이를 가능하게 하기 위해, 원시값이 메서드나 프로퍼티에 접근하려 하면 추가 기능을 제공해주는 특수한 객체, “원시 래퍼 객체(object wrapper)”를 만들어 줍니다. 이 객체는 곧 삭제됩니다.</li>
+    </ol>
+  </li>
+  <li>래퍼 객체
+래퍼 객체는 원시 타입에 따라 종류가 다양하다.<br />
+각 래퍼 객체는 원시 자료형의 이름을 그대로 차용해, String,Number,Boolean, Symbol라고 부릅니다<br />
+래퍼 개체마다 제공하는 메서드 역시 다르다</li>
+  <li>예시</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">str</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Hello</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="nf">alert</span><span class="p">(</span> <span class="nx">str</span><span class="p">.</span><span class="nf">toUpperCase</span><span class="p">()</span> <span class="p">);</span> <span class="c1">// HELLO</span>
+</code></pre></div></div>
+<p>str.toUpeprCase()가 호출 될 때 실제로 일어나는 일</p>
+<ol>
+  <li>문자열 str은 원시값이므로 프로퍼티(toUpperCase)에 접근하는 순간 특별한 객체가 만들어집니다.<br />
+이 객체는 문자열의 값을 알고 있고, toupperCase()와 같은 유용한 메서드를 가지고 있습니다.</li>
+  <li>메서드가 실행되고, 새로운 문자열이 반환됩니다(alert 창에 이 문자열이 출력됩니다)</li>
+  <li>특별한 객체는 파괴되고, 원시값 str만 남습니다.
+자바스크립트는 이러한 최적화에 많은 관심이 쏟고 있습니다.
     <ul>
-      <li>rel: 관계</li>
-      <li>href: 경로</li>
-      <li>웹 사이트 로고 만들기
-        <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"icon"</span> <span class="na">href=</span><span class="s">"./favicon.png"</span><span class="nt">&gt;</span>
-    
-</code></pre></div>        </div>
-      </li>
+      <li>유의할 점</li>
     </ul>
   </li>
-  <li>meta 테그: title, link, style, script로 나타낼수 없는 정보를 표시
-    <ul>
-      <li>기본 구성 name: 어떤 속성?, content: 내용</li>
-      <li>
-        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;meta name="viewport" width="device-width, initial-scale=1.0"&gt;
-</code></pre></div>        </div>
-        <p>뷰 포트는 모바일 환경에서만 사용됨. initial-scale은 모바일에서 화면 기본 확대 설정</p>
-      </li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="frontendBasic" /><summary type="html"><![CDATA[전체 구조 ```html &lt;!DOCTYPE html&gt;]]></summary></entry></feed>
+  <li>new String/Number/Boolean을 사용하지 말자!
+단지 하위호환성을 위해 남겨둔 문법이고, 몇몇 상황에서 혼돈을 일으킨다!</li>
+  <li>String/Number/Boolean을 new없이 사용하자!
+상식에 맞게 인수를 원하는 형의 원시값(문자열, 숫자, 불린 값)으로 바꿔줍니다</li>
+  <li>null/undefined는 메서드가 없습니다.
+어떤 의미에서는 두 자료형이 “가장 원시적”이라 할 수 있을 것 같습니다.</li>
+</ol>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="javascript" /><summary type="html"><![CDATA[자바스크립트는 원시 값(문자열, 숫자 등)을 마치 객체처럼 다룰 수 있게 해줍니다. 원시값에도 객체에서처럼 메서드를 호출할 수 있죠]]></summary></entry><entry><title type="html">이진 탐색 알고리즘</title><link href="http://localhost:4000/algorithm/2024-01-10-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" rel="alternate" type="text/html" title="이진 탐색 알고리즘" /><published>2024-01-10T15:40:24+09:00</published><updated>2024-01-11T03:38:59+09:00</updated><id>http://localhost:4000/algorithm/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98</id><content type="html" xml:base="http://localhost:4000/algorithm/2024-01-10-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"><![CDATA[<h2 id="순차-탐색-vs-이진-탐색">순차 탐색 VS 이진 탐색</h2>
+<ul>
+  <li>순차 탐색: 리스트 안에 있는 특정한 데이터를 찾기 위해 앞에서부터 하나씩 확인한다: O(N)</li>
+  <li>이진 탐색: 정렬되어 있는 리스트에서 탐색 범위를 절반씩 좁혀가며 데이터를 탐색한다: O(logN)</li>
+</ul>
+
+<h2 id="이진-탐색-동작-방식">이진 탐색 동작 방식</h2>
+<p>이진 탐색을 수행할 때는 시작점(left)와 끝점(end)을 기준으로 탐색 범위를 명시힌다</p>
+<ol>
+  <li>mid의 값과 찾고자하는 값을 비교 한다</li>
+  <li>target이 mid 값보다 작거나 같다면 right 값을 mid-1로 교체하고 다시 수행한다</li>
+  <li>target이 mid 값보다 크다면 left 값을 mid+1로 교체하고 다시 수행한다</li>
+</ol>
+
+<h2 id="문제-유형의-대표적인-사례">문제 유형의 대표적인 사례</h2>
+<ol>
+  <li>매우 넓은(억 단위 이상) 탐색 범위에서 최적의 해를 찾아야 하는 경우</li>
+  <li>데이터를 정렬한 뒤에 다수의 쿼리를 날려야 하는 경우</li>
+</ol>
+
+<h2 id="코드">코드</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">binarySearch</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">target</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">let</span> <span class="nx">mid</span>
+
+  <span class="k">while</span><span class="p">(</span><span class="nx">start</span><span class="o">&lt;=</span><span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">mid</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nf">round</span><span class="p">((</span><span class="nx">start</span><span class="o">+</span><span class="nx">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">mid</span><span class="p">]</span> <span class="o">===</span> <span class="nx">target</span><span class="p">)</span> <span class="k">return</span> <span class="nx">mid</span><span class="p">;</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">mid</span><span class="p">]</span> <span class="o">&lt;</span> <span class="nx">target</span><span class="p">)</span> <span class="k">return</span> <span class="nf">binarySearch</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">target</span><span class="p">,</span> <span class="nx">mid</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span>
+    <span class="k">else</span> <span class="k">return</span> <span class="nf">binarySearch</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">target</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">mid</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="정렬된-배열에서-특정-원소의-개수-구하기">정렬된 배열에서 특정 원소의 개수 구하기</h2>
+<p>정렬된 배열에서 값이 특정 범위에 해당하는 원소의 개수를 계산하는 것을 요구<br />
+lowerBound()함수와 upperBound()함수를 사용할 수 있다. (자바스크립트는 직접 구현해야 함)</p>
+<ul>
+  <li>lowerBound(arr, x)
+정렬된 순서를 유지하면서 배열 arr에 x를 넣을 가장 왼쪽 인덱스 반환</li>
+  <li>upperBound(arr, x)
+정렬된 순서를 유지하면서 배열 arr에 x를 넣을 가장 오른쪽 인덱스 반환</li>
+  <li>코드</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">lowerBound</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">target</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">while</span><span class="p">(</span><span class="nx">start</span> <span class="o">&lt;</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">mid</span> <span class="o">=</span> <span class="nf">parseInt</span><span class="p">((</span><span class="nx">start</span><span class="o">+</span><span class="nx">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">mid</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="nx">target</span><span class="p">)</span> <span class="nx">end</span> <span class="o">=</span> <span class="nx">mid</span>
+    <span class="k">else</span> <span class="nx">start</span> <span class="o">=</span> <span class="nx">mid</span><span class="o">+</span><span class="mi">1</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">end</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nf">upperBound</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">target</span><span class="p">,</span> <span class="nx">start</span><span class="p">,</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">while</span><span class="p">(</span><span class="nx">start</span> <span class="o">&lt;</span> <span class="nx">end</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">mid</span> <span class="o">=</span> <span class="nf">parseInt</span><span class="p">((</span><span class="nx">start</span><span class="o">+</span><span class="nx">end</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="nx">mid</span><span class="p">]</span> <span class="o">&gt;</span> <span class="nx">target</span><span class="p">)</span> <span class="nx">end</span> <span class="o">=</span> <span class="nx">mid</span>
+    <span class="k">else</span> <span class="nx">start</span> <span class="o">=</span> <span class="nx">mid</span><span class="o">+</span><span class="mi">1</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="nx">end</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<ul>
+  <li>countByRange(): 정렬된 배열에서 값이 특정 범위에 속하는 원소의 개수를 게산</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">countByRange</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">leftValue</span><span class="p">,</span> <span class="nx">rightValue</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// 유의: lowerBound와 upperBound는 end 변수의 값을 배열의 길이로 설정</span>
+  <span class="kd">let</span> <span class="nx">rightIndex</span> <span class="o">=</span> <span class="nf">upperBound</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">rightValue</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span>
+  <span class="kd">let</span> <span class="nx">leftIndex</span> <span class="o">=</span> <span class="nf">lowerBound</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="nx">leftValue</span><span class="p">,</span> <span class="mi">0</span> <span class="p">,</span><span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nx">rightIndex</span> <span class="o">-</span> <span class="nx">leftIndex</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nf">countByRange</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
+</code></pre></div></div>
+<h2 id="파라메스틱-서치">파라메스틱 서치</h2>
+<p>최적화 문제(문제의 상황을 만족하는 특정 변수의 최솟값, 최댓값을 구하는 문제)가 단조 증가나 감수 함수라는 조건이 있다면 이진탐색으로 결정문제로 바꿀 수 있다.<br />
+정답이 될 수 있는 값들이 연속적이여야 한다!!</p>
+<ol>
+  <li>결정 문제를 정의했을 때, 쉽게 풀 수 있는 경우</li>
+  <li>(최솟값을 구하는 경우) 최솟값이 x라면, x이상의 값에 대해서는 모두 조건을 만족</li>
+  <li>(최댓값을 구하는 경우) 최댓값이 x라면, x이하의 값에 대해서는 모두 조건을 만족</li>
+</ol>
+
+<h2 id="lis와-이분탐색">LIS와 이분탐색</h2>
+<p>https://velog.io/@seho100/%EC%B5%9C%EA%B0%95-%EC%A6%9D%EA%B0%80-%EB%B6%80%EB%B6%84-%EC%88%98%EC%97%B4LIS-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98
+이 사이트에 잘 정리 되어 있다.</p>
+
+<ul>
+  <li>2512번: 전형적인 예시</li>
+  <li>2805번: 할만 함 start&lt;=end 여야 하는 이유는 0(start), 1(end)가 만족 되면 mid=0이고, 1(start), 1(end)까지 만족 될수도 있는지 확인 해야함 mid=1</li>
+  <li>10816번: 이분탐색과 u/l bound문제는 코드 등호 외우자!</li>
+  <li>18353번: 실버라고 얕봤는데.. lowerbound를 써야하는지 이분 탐색을 써야하는지 잘 보자! LIS는 lowerbound를 써야하네!</li>
+  <li>1300번: 알고풀면 쉬운데.. 아이디어 떠올리기 넘 어렵당</li>
+</ul>]]></content><author><name>&lt;Kim&gt; &lt;SunWoo&gt;</name><email>&lt;ttcoristory@naver.com&gt;</email></author><category term="algorithm" /><summary type="html"><![CDATA[순차 탐색 VS 이진 탐색 순차 탐색: 리스트 안에 있는 특정한 데이터를 찾기 위해 앞에서부터 하나씩 확인한다: O(N) 이진 탐색: 정렬되어 있는 리스트에서 탐색 범위를 절반씩 좁혀가며 데이터를 탐색한다: O(logN)]]></summary></entry></feed>
