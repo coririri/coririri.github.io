@@ -22,6 +22,35 @@ eslint는 코드가 관습에서 벗어나면 경고 메시지를 띄워주는 �
 3. Prettier를 실행한 직후 ESLint를 실행시켜주는 prettier-eslint
    1번의 방법이 권장된다.
 
+### Prettier & eslint-config-prettier 설치 및 설정
+
+1. 설치: npm i -D prettier eslint-config-prettier
+2. 루트 폴더 위치에 .prettierrc 파일 (prettier 설정 파일)을 생성합니다.
+3. [prettier옵션](https://prettier.io/docs/en/options.html)을 참고해 .prettierrc 파일에 작성
+
+```json
+{
+  // 쌍따옴표 대신 홑따옴표 사용
+  "singleQuote": true,
+  // 모든 구문 끝에 세미콜론 출력
+  "semi": true,
+  // 탭 대신 공백으로 들여쓰기
+  "useTabs": false,
+  // 들여쓰기 공백 수
+  "tabWidth": 2,
+  // 가능하면 후행 쉼표 사용
+  "trailingComma": "all",
+  // 줄 바꿈할 길이
+  "printWidth": 80,
+  // 객체 괄호에 공백 삽입
+  "bracketSpacing": true,
+  // 항상 화살표 함수의 매개 변수를 괄호로 감쌈
+  "arrowParens": "always",
+  // OS에 따른 코드라인 끝 처리 방식 사용
+  "endOfLine": "auto"
+}
+```
+
 ### eslint 설치 및 설정
 
 1. 설치: npm install eslint --save-dev
@@ -58,36 +87,9 @@ extends: ['airbnb-base', 'prettier']
 
 prettier가 마지막에 가서 eslint-config-prettier가 eslint 설정을 덮어쓰이도록 한다.
 
-### Prettier & eslint-config-prettier 설치 및 설정
-
-1. 설치: npm i -D prettier eslint-config-prettier
-2. 루트 폴더 위치에 .prettierrc 파일 (prettier 설정 파일)을 생성합니다.
-3. [prettier옵션](https://prettier.io/docs/en/options.html)을 참고해 .prettierrc 파일에 작성
-
-```json
-{
-  // 쌍따옴표 대신 홑따옴표 사용
-  "singleQuote": true,
-  // 모든 구문 끝에 세미콜론 출력
-  "semi": true,
-  // 탭 대신 공백으로 들여쓰기
-  "useTabs": false,
-  // 들여쓰기 공백 수
-  "tabWidth": 2,
-  // 가능하면 후행 쉼표 사용
-  "trailingComma": "all",
-  // 줄 바꿈할 길이
-  "printWidth": 80,
-  // 객체 괄호에 공백 삽입
-  "bracketSpacing": true,
-  // 항상 화살표 함수의 매개 변수를 괄호로 감쌈
-  "arrowParens": "always",
-  // OS에 따른 코드라인 끝 처리 방식 사용
-  "endOfLine": "auto"
-}
-```
-
 ### VSCODE의 EXTENSION 설치
+
+prettier module은 formatting을 진행할 때 precommit이나 복잡한 방법들을 사용하기 때문에, extension의 도움을 받아 저장 시 수정하는 방법이 가장 깔끔하다.
 
 1. ESLint와 Prettier 확장 프로그램을 설치
 2. VSCode의 setting.json 파일에 아래 내용을 작성합니다.
