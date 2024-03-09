@@ -45,7 +45,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="eslint와 prettier 설정" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2024-01-23T00:36:31+09:00","datePublished":"2024-01-22T21:02:24+09:00","description":"둘다 코드 컨벤션을 맞춰 유지보수 및 협업을 용이하게 해주기 위한 도구들이다.","headline":"eslint와 prettier 설정","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"<Kim> <SunWoo>"},"dateModified":"2024-01-23T18:28:53+09:00","datePublished":"2024-01-22T21:02:24+09:00","description":"둘다 코드 컨벤션을 맞춰 유지보수 및 협업을 용이하게 해주기 위한 도구들이다.","headline":"eslint와 prettier 설정","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo2.png"},"name":"<Kim> <SunWoo>"},"url":"http://localhost:4000/haanppen/2024-01-22-eslint%EC%99%80-prettier-%EC%84%A4%EC%A0%95/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -108,7 +108,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2024-01-23T00:36:31+09:00',
+    INDEX_KEY: 'index--2024-02-12T01:03:34+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -233,7 +233,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
             <span class="ellipsis" data-tippy-content="Last modified at: 23 Jan 2024">
               <span class="sr-only">Last modified at:</span>
               <span class="icon-history"></span>
-              <time datetime="2024-01-23T00:36:31+09:00">2024-01-23</time>
+              <time datetime="2024-01-23T18:28:53+09:00">2024-01-23</time>
             </span>
           
         
@@ -269,6 +269,36 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79, 177, 186, 0.
   <li>Prettier를 실행한 직후 ESLint를 실행시켜주는 prettier-eslint
 1번의 방법이 권장된다.</li>
 </ol>
+
+<h3 id="prettier--eslint-config-prettier-설치-및-설정">Prettier &amp; eslint-config-prettier 설치 및 설정</h3>
+
+<ol>
+  <li>설치: npm i -D prettier eslint-config-prettier</li>
+  <li>루트 폴더 위치에 .prettierrc 파일 (prettier 설정 파일)을 생성합니다.</li>
+  <li><a href="https://prettier.io/docs/en/options.html">prettier옵션</a>을 참고해 .prettierrc 파일에 작성</li>
+</ol>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">쌍따옴표</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">홑따옴표</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"singleQuote"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">모든</span><span class="w"> </span><span class="err">구문</span><span class="w"> </span><span class="err">끝에</span><span class="w"> </span><span class="err">세미콜론</span><span class="w"> </span><span class="err">출력</span><span class="w">
+  </span><span class="nl">"semi"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">탭</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">공백으로</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w">
+  </span><span class="nl">"useTabs"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">수</span><span class="w">
+  </span><span class="nl">"tabWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">가능하면</span><span class="w"> </span><span class="err">후행</span><span class="w"> </span><span class="err">쉼표</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"trailingComma"</span><span class="p">:</span><span class="w"> </span><span class="s2">"all"</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">줄</span><span class="w"> </span><span class="err">바꿈할</span><span class="w"> </span><span class="err">길이</span><span class="w">
+  </span><span class="nl">"printWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">객체</span><span class="w"> </span><span class="err">괄호에</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">삽입</span><span class="w">
+  </span><span class="nl">"bracketSpacing"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">항상</span><span class="w"> </span><span class="err">화살표</span><span class="w"> </span><span class="err">함수의</span><span class="w"> </span><span class="err">매개</span><span class="w"> </span><span class="err">변수를</span><span class="w"> </span><span class="err">괄호로</span><span class="w"> </span><span class="err">감쌈</span><span class="w">
+  </span><span class="nl">"arrowParens"</span><span class="p">:</span><span class="w"> </span><span class="s2">"always"</span><span class="p">,</span><span class="w">
+  </span><span class="err">//</span><span class="w"> </span><span class="err">OS에</span><span class="w"> </span><span class="err">따른</span><span class="w"> </span><span class="err">코드라인</span><span class="w"> </span><span class="err">끝</span><span class="w"> </span><span class="err">처리</span><span class="w"> </span><span class="err">방식</span><span class="w"> </span><span class="err">사용</span><span class="w">
+  </span><span class="nl">"endOfLine"</span><span class="p">:</span><span class="w"> </span><span class="s2">"auto"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
 
 <h3 id="eslint-설치-및-설정">eslint 설치 및 설정</h3>
 
@@ -311,37 +341,9 @@ npm, yarn, pnpm 중 선호하는 패키지 매니저를 선택</li>
 
 <p>prettier가 마지막에 가서 eslint-config-prettier가 eslint 설정을 덮어쓰이도록 한다.</p>
 
-<h3 id="prettier--eslint-config-prettier-설치-및-설정">Prettier &amp; eslint-config-prettier 설치 및 설정</h3>
-
-<ol>
-  <li>설치: npm i -D prettier eslint-config-prettier</li>
-  <li>루트 폴더 위치에 .prettierrc 파일 (prettier 설정 파일)을 생성합니다.</li>
-  <li><a href="https://prettier.io/docs/en/options.html">prettier옵션</a>을 참고해 .prettierrc 파일에 작성</li>
-</ol>
-
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">쌍따옴표</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">홑따옴표</span><span class="w"> </span><span class="err">사용</span><span class="w">
-  </span><span class="nl">"singleQuote"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">모든</span><span class="w"> </span><span class="err">구문</span><span class="w"> </span><span class="err">끝에</span><span class="w"> </span><span class="err">세미콜론</span><span class="w"> </span><span class="err">출력</span><span class="w">
-  </span><span class="nl">"semi"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">탭</span><span class="w"> </span><span class="err">대신</span><span class="w"> </span><span class="err">공백으로</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w">
-  </span><span class="nl">"useTabs"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">들여쓰기</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">수</span><span class="w">
-  </span><span class="nl">"tabWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">가능하면</span><span class="w"> </span><span class="err">후행</span><span class="w"> </span><span class="err">쉼표</span><span class="w"> </span><span class="err">사용</span><span class="w">
-  </span><span class="nl">"trailingComma"</span><span class="p">:</span><span class="w"> </span><span class="s2">"all"</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">줄</span><span class="w"> </span><span class="err">바꿈할</span><span class="w"> </span><span class="err">길이</span><span class="w">
-  </span><span class="nl">"printWidth"</span><span class="p">:</span><span class="w"> </span><span class="mi">80</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">객체</span><span class="w"> </span><span class="err">괄호에</span><span class="w"> </span><span class="err">공백</span><span class="w"> </span><span class="err">삽입</span><span class="w">
-  </span><span class="nl">"bracketSpacing"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">항상</span><span class="w"> </span><span class="err">화살표</span><span class="w"> </span><span class="err">함수의</span><span class="w"> </span><span class="err">매개</span><span class="w"> </span><span class="err">변수를</span><span class="w"> </span><span class="err">괄호로</span><span class="w"> </span><span class="err">감쌈</span><span class="w">
-  </span><span class="nl">"arrowParens"</span><span class="p">:</span><span class="w"> </span><span class="s2">"always"</span><span class="p">,</span><span class="w">
-  </span><span class="err">//</span><span class="w"> </span><span class="err">OS에</span><span class="w"> </span><span class="err">따른</span><span class="w"> </span><span class="err">코드라인</span><span class="w"> </span><span class="err">끝</span><span class="w"> </span><span class="err">처리</span><span class="w"> </span><span class="err">방식</span><span class="w"> </span><span class="err">사용</span><span class="w">
-  </span><span class="nl">"endOfLine"</span><span class="p">:</span><span class="w"> </span><span class="s2">"auto"</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>
-
 <h3 id="vscode의-extension-설치">VSCODE의 EXTENSION 설치</h3>
+
+<p>prettier module은 formatting을 진행할 때 precommit이나 복잡한 방법들을 사용하기 때문에, extension의 도움을 받아 저장 시 수정하는 방법이 가장 깔끔하다.</p>
 
 <ol>
   <li>ESLint와 Prettier 확장 프로그램을 설치</li>
@@ -487,7 +489,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
 
-  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/haanppen/2024-01-22-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B4%88%EA%B8%B0-%EC%84%B8%ED%8C%85/" class="flip-title"><span>프로젝트 초기 세팅</span></a>  <time class="faded fine" datetime="2024-01-22T21:26:24+09:00">22 Jan 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-01-22-CRA%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" class="flip-title"><span>CRA에 대해서</span></a>  <time class="faded fine" datetime="2024-01-22T18:30:24+09:00">22 Jan 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-01-22-VITE%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C/" class="flip-title"><span>VITE에 대해서</span></a>  <time class="faded fine" datetime="2024-01-22T17:17:24+09:00">22 Jan 2024</time></li>            </ul></aside>
+  <aside class="related mb4" role="complementary">  <h2 class="hr-bottom">Related Posts</h2>  <ul class="related-posts">                  <li class="h4">  <a href="/css/2024-02-12-CSS-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98/" class="flip-title"><span>CSS 애니메이션</span></a>  <time class="faded fine" datetime="2024-02-12T00:20:24+09:00">12 Feb 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-02-08-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%99%80-PropTypes/" class="flip-title"><span>타입스크립트와 PropTypes</span></a>  <time class="faded fine" datetime="2024-02-08T00:01:24+09:00">08 Feb 2024</time></li>                        <li class="h4">  <a href="/haanppen/2024-02-06-%ED%8F%B4%EB%8D%94%EA%B5%AC%EC%A1%B0%EC%99%80-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4/" class="flip-title"><span>폴더구조와 디자인 패턴</span></a>  <time class="faded fine" datetime="2024-02-06T21:26:24+09:00">06 Feb 2024</time></li>            </ul></aside>
 
   
 
